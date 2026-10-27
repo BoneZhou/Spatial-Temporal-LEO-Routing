@@ -1,0 +1,1883 @@
+{
+  "description": "Measured compact reference snapshots; checkpoint path metadata sanitized to repository-relative paths.",
+  "files": [
+    {
+      "path": "data/ablation/FORMAL_COMPLETE.ok",
+      "sha256": "0d03b68ec59e95739d25c0a179a24e6d270020251d3dad7b8c71ae47002ea86a",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/FORMAL_COMPLETE.ok",
+      "source_sha256": "0d03b68ec59e95739d25c0a179a24e6d270020251d3dad7b8c71ae47002ea86a"
+    },
+    {
+      "path": "data/ablation/packet_audit_FORMAL.json",
+      "sha256": "bff211dec0a8fbf8adaefbf297428979ca3ddd9bb605e59ee783985c575a7a10",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/packet_audit_FORMAL.json",
+      "source_sha256": "bff211dec0a8fbf8adaefbf297428979ca3ddd9bb605e59ee783985c575a7a10"
+    },
+    {
+      "path": "data/ablation/summary_FORMAL.csv",
+      "sha256": "2a5071c6fde9fd6a574af6b0228f3c019c9c23bfbdd65d203ba40d81786b1920",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/summary_FORMAL.csv",
+      "source_sha256": "39a95cc131c2deed51b03397a0e5ad60177e4b92a05ca801194d1c7b0015566e"
+    },
+    {
+      "path": "data/ablation/checkpoint11_traffic101/trace_manifest.json",
+      "sha256": "953cf7b067cf209cd8eec244b7c16e66378a6bf3b47cf9959ca3f7e19e9dfa76",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint11_traffic101/trace_manifest.json",
+      "source_sha256": "953cf7b067cf209cd8eec244b7c16e66378a6bf3b47cf9959ca3f7e19e9dfa76"
+    },
+    {
+      "path": "data/ablation/checkpoint11_traffic101/proposed_dqn_packet/S1_non_cross_normal/summary_FORMAL.json",
+      "sha256": "87e54ae2afe2fc7bb913358c5e8e513d80e5ccbbdd2ad7341008a1d451de57c3",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint11_traffic101/proposed_dqn_packet/S1_non_cross_normal/summary_FORMAL.json",
+      "source_sha256": "d29d80ae961f17319e06b73dc7aad66b03a0712d157c7d5b5f18772b58fee61a"
+    },
+    {
+      "path": "data/ablation/checkpoint11_traffic101/proposed_dqn_packet/S2_cross_normal/summary_FORMAL.json",
+      "sha256": "f691191401822e53132cd1858995eea39a4365ae1a45b9136070f304ad72cbc4",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint11_traffic101/proposed_dqn_packet/S2_cross_normal/summary_FORMAL.json",
+      "source_sha256": "f90107989cf4582d2d7d614f381f35cde87d4b32fecd385aecb172ba8aad984d"
+    },
+    {
+      "path": "data/ablation/checkpoint11_traffic101/proposed_dqn_packet/S3_non_cross_ftp/summary_FORMAL.json",
+      "sha256": "a69e7b80c087ed8ef000031323c407b9a84c62951b30b757ac17881d027d1112",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint11_traffic101/proposed_dqn_packet/S3_non_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "01c01c45362670d5ce779e551fed10801e3395e9acaaa50561158e705cd87624"
+    },
+    {
+      "path": "data/ablation/checkpoint11_traffic101/proposed_dqn_packet/S4_cross_ftp/summary_FORMAL.json",
+      "sha256": "fa94a052d4306e1519d0685f2b5c8107db4952ab4a5dcd9ca1799c1c99d6232c",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint11_traffic101/proposed_dqn_packet/S4_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "62de1d9ae0a9d594ddbdde766f28a287fcd7f30e0c87a716e04d678e8acb77ba"
+    },
+    {
+      "path": "data/ablation/checkpoint11_traffic101/proposed_gat_dqn_packet/S1_non_cross_normal/summary_FORMAL.json",
+      "sha256": "fecec5883a29ccb4968f8b2e1f258ca3c0d9587057c66d463f22a9722340ac3f",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint11_traffic101/proposed_gat_dqn_packet/S1_non_cross_normal/summary_FORMAL.json",
+      "source_sha256": "9f3331686e966acdd568bf66ad094d02d6e47ff755019a27804ba7fe05fc1785"
+    },
+    {
+      "path": "data/ablation/checkpoint11_traffic101/proposed_gat_dqn_packet/S2_cross_normal/summary_FORMAL.json",
+      "sha256": "8f4deda42b7f7a4a833e4ec734678d99ef37cee5c48fc95d07485b17555cabed",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint11_traffic101/proposed_gat_dqn_packet/S2_cross_normal/summary_FORMAL.json",
+      "source_sha256": "14993e67135d30e91d4d4d004a49ca7b4b1645f3f55d454e960c3c417b2c210e"
+    },
+    {
+      "path": "data/ablation/checkpoint11_traffic101/proposed_gat_dqn_packet/S3_non_cross_ftp/summary_FORMAL.json",
+      "sha256": "63d3f8505363a0db1fb6d8347386525e7cdd70e8c35e3d5662feff80066e207b",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint11_traffic101/proposed_gat_dqn_packet/S3_non_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "e1513adcac259fddea922431cda1809ad7df410c172cd4a42d29034402e00fb8"
+    },
+    {
+      "path": "data/ablation/checkpoint11_traffic101/proposed_gat_dqn_packet/S4_cross_ftp/summary_FORMAL.json",
+      "sha256": "6fd754aa68fae71e5d11a6802be85422180ede1cb57e3038af9c9dd5709a9f5f",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint11_traffic101/proposed_gat_dqn_packet/S4_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "049a26125d6322c037f4d29225b4396aa8a5e51eac4ebc0a3b21e6b507710515"
+    },
+    {
+      "path": "data/ablation/checkpoint11_traffic101/proposed_lstm_dqn_packet/S1_non_cross_normal/summary_FORMAL.json",
+      "sha256": "756168c78c920f977a05179dc39b52f36f198c3f1bdd2d90a94d2513503a30f7",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint11_traffic101/proposed_lstm_dqn_packet/S1_non_cross_normal/summary_FORMAL.json",
+      "source_sha256": "e26d90ace49353b834068981a55338db9504e46eab895bbe9e84e73d677c08e8"
+    },
+    {
+      "path": "data/ablation/checkpoint11_traffic101/proposed_lstm_dqn_packet/S2_cross_normal/summary_FORMAL.json",
+      "sha256": "6e25dce55a6cc69497b71bb7ab1cf4144b74b1efaa6af24a198ff310d9da8141",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint11_traffic101/proposed_lstm_dqn_packet/S2_cross_normal/summary_FORMAL.json",
+      "source_sha256": "d693fd53ec01b0f3a03e9db012d65121d5d5da4e109c1141db45bcf530b3956c"
+    },
+    {
+      "path": "data/ablation/checkpoint11_traffic101/proposed_lstm_dqn_packet/S3_non_cross_ftp/summary_FORMAL.json",
+      "sha256": "4a3034505e7a8cb28de5765bff442aeea864a3fb2ad4334f42be325e94b2910f",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint11_traffic101/proposed_lstm_dqn_packet/S3_non_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "019d4efdff00423eb65ddcd107f6485fbf0b5c41d12d18f0de5e03020c2a4455"
+    },
+    {
+      "path": "data/ablation/checkpoint11_traffic101/proposed_lstm_dqn_packet/S4_cross_ftp/summary_FORMAL.json",
+      "sha256": "28048d97d598fce5bd23a00e624b171261ad603916c7d4dc6907caaac489c8a8",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint11_traffic101/proposed_lstm_dqn_packet/S4_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "802fb97751de9b830ece9f787c7952940ec05a2f4064613d51f8a8463eb1c2ff"
+    },
+    {
+      "path": "data/ablation/checkpoint22_traffic202/trace_manifest.json",
+      "sha256": "d98a94a28c0a693113126c65436fcab478311f13dc6f6e3d6194aec963dc96dd",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint22_traffic202/trace_manifest.json",
+      "source_sha256": "d98a94a28c0a693113126c65436fcab478311f13dc6f6e3d6194aec963dc96dd"
+    },
+    {
+      "path": "data/ablation/checkpoint22_traffic202/proposed_dqn_packet/S1_non_cross_normal/summary_FORMAL.json",
+      "sha256": "9b9341451a024a0a9ccaa6e7476041ccbfda201b4e21df0c57fc3b8c2086c96c",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint22_traffic202/proposed_dqn_packet/S1_non_cross_normal/summary_FORMAL.json",
+      "source_sha256": "8a25dbdc1de0e7fb29c0e0381234b15ade3f63616a6b46a35e5293c8cd95de81"
+    },
+    {
+      "path": "data/ablation/checkpoint22_traffic202/proposed_dqn_packet/S2_cross_normal/summary_FORMAL.json",
+      "sha256": "4a8b8911f7d67c2ccc8b9088727ede44254a10fd91bb348d183c20ed6433c365",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint22_traffic202/proposed_dqn_packet/S2_cross_normal/summary_FORMAL.json",
+      "source_sha256": "97bf15451601ef5308260804e3e0f6db80a410aa0dd89ba61b89363e2d03f640"
+    },
+    {
+      "path": "data/ablation/checkpoint22_traffic202/proposed_dqn_packet/S3_non_cross_ftp/summary_FORMAL.json",
+      "sha256": "ae86cda1d1bf6c9b5959fe8bb5d86d458bf78ca465c0a4a4850fd0d3897a33ed",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint22_traffic202/proposed_dqn_packet/S3_non_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "8eeae61186db0b868b481a02d801f3bf251b3c22ed9b1a96f0a598b22f570544"
+    },
+    {
+      "path": "data/ablation/checkpoint22_traffic202/proposed_dqn_packet/S4_cross_ftp/summary_FORMAL.json",
+      "sha256": "9c2c292cf69a58e626f610171a0d159309d04cbd6db88e4d1cfb1656ef254d97",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint22_traffic202/proposed_dqn_packet/S4_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "2538eea59fa6ba23076e8fadfbf82397c98f721818299261002c9e0eef3a0b89"
+    },
+    {
+      "path": "data/ablation/checkpoint22_traffic202/proposed_gat_dqn_packet/S1_non_cross_normal/summary_FORMAL.json",
+      "sha256": "fb6e035f00416ff85d490174a0f316f96b7302a5af511a21ffa68d89d4fe8603",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint22_traffic202/proposed_gat_dqn_packet/S1_non_cross_normal/summary_FORMAL.json",
+      "source_sha256": "d389bbef03c3c4e220427265201d72d018643565a80c3ed2bf30073a0eccd73d"
+    },
+    {
+      "path": "data/ablation/checkpoint22_traffic202/proposed_gat_dqn_packet/S2_cross_normal/summary_FORMAL.json",
+      "sha256": "4f037292686f0701d4aa4c5699112ed2e5c3bc616acd421691fa08c59e8cb4cc",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint22_traffic202/proposed_gat_dqn_packet/S2_cross_normal/summary_FORMAL.json",
+      "source_sha256": "c0abe0d5cf7c53d0b28b67f90e15f300c2f1ee7afd19b359a49983d411ef999e"
+    },
+    {
+      "path": "data/ablation/checkpoint22_traffic202/proposed_gat_dqn_packet/S3_non_cross_ftp/summary_FORMAL.json",
+      "sha256": "0ecc38af38dcd6e1bf5d85cf66fad0e5860194f042bd699d90da065c6c506c7c",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint22_traffic202/proposed_gat_dqn_packet/S3_non_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "3d2a3df9a6bde8629d4ea4c8d8fcd55026610aaf31634d2de69a4815562e3d5b"
+    },
+    {
+      "path": "data/ablation/checkpoint22_traffic202/proposed_gat_dqn_packet/S4_cross_ftp/summary_FORMAL.json",
+      "sha256": "8d0ba8e8db3ba155dca0d97d6d7f7954a5cae6e8a30236358e9ce6df14ecdde0",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint22_traffic202/proposed_gat_dqn_packet/S4_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "7d99ed25d7ead093d396da2293c0a52dbff0598e6b200080018c20e634a58879"
+    },
+    {
+      "path": "data/ablation/checkpoint22_traffic202/proposed_lstm_dqn_packet/S1_non_cross_normal/summary_FORMAL.json",
+      "sha256": "ed3699cc6197c4a4274f65af84e40dbd569330f685c712edb68ee661568a5ecb",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint22_traffic202/proposed_lstm_dqn_packet/S1_non_cross_normal/summary_FORMAL.json",
+      "source_sha256": "454cf80f09c236e9b464f7e344709dc0e4353c3d2718b727d459bed9a69d4449"
+    },
+    {
+      "path": "data/ablation/checkpoint22_traffic202/proposed_lstm_dqn_packet/S2_cross_normal/summary_FORMAL.json",
+      "sha256": "a79bf80c18222452562d997ef0873f7c500d3c78e3c09673eb8b7775a248f5a4",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint22_traffic202/proposed_lstm_dqn_packet/S2_cross_normal/summary_FORMAL.json",
+      "source_sha256": "d35f281273c43aebc9c7f96c8d87e8de1c3ea6847d4e1539cb88b45b1a7087e8"
+    },
+    {
+      "path": "data/ablation/checkpoint22_traffic202/proposed_lstm_dqn_packet/S3_non_cross_ftp/summary_FORMAL.json",
+      "sha256": "6425f75410c2b220ee46add5e192197dfdca553d35cdf74814a5cafe37a416d0",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint22_traffic202/proposed_lstm_dqn_packet/S3_non_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "15051d0b571c0abac7ad715c5969e9cfcc8c16a3b26eb365b2a141d51ec2e287"
+    },
+    {
+      "path": "data/ablation/checkpoint22_traffic202/proposed_lstm_dqn_packet/S4_cross_ftp/summary_FORMAL.json",
+      "sha256": "ab74fe62f05c5573f9162143ceb15608cfa98c0e3648baf208dd1201342449c5",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint22_traffic202/proposed_lstm_dqn_packet/S4_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "2bc0a43ebbd3b26bb5a661c029becc604b18b11d104229f959c99dd310ab9deb"
+    },
+    {
+      "path": "data/ablation/checkpoint33_traffic303/trace_manifest.json",
+      "sha256": "c57dd27fbbab7f00a07c8956a78e0a1bc5882884c77047381d925849a2784219",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint33_traffic303/trace_manifest.json",
+      "source_sha256": "c57dd27fbbab7f00a07c8956a78e0a1bc5882884c77047381d925849a2784219"
+    },
+    {
+      "path": "data/ablation/checkpoint33_traffic303/proposed_dqn_packet/S1_non_cross_normal/summary_FORMAL.json",
+      "sha256": "21282a554786647421368712bf21702be09765068152995b8cf81542fab7df96",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint33_traffic303/proposed_dqn_packet/S1_non_cross_normal/summary_FORMAL.json",
+      "source_sha256": "d374822dbe9f677182057c94e44535026589973bbef82a2e8fe51a128cfd1235"
+    },
+    {
+      "path": "data/ablation/checkpoint33_traffic303/proposed_dqn_packet/S2_cross_normal/summary_FORMAL.json",
+      "sha256": "8f35ca8869f63364fd4f1560ad3a2b4ba8b2fe5075223913aa5b94dd8f933a43",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint33_traffic303/proposed_dqn_packet/S2_cross_normal/summary_FORMAL.json",
+      "source_sha256": "116c7b32f9c02ee10c6c8cdda56d1959de145e254f04ccef0a8272c11df89c9f"
+    },
+    {
+      "path": "data/ablation/checkpoint33_traffic303/proposed_dqn_packet/S3_non_cross_ftp/summary_FORMAL.json",
+      "sha256": "47648b8a07b468d48193fcda0c2701beb4627f3ef8a3ba893b4f623dfc3610fe",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint33_traffic303/proposed_dqn_packet/S3_non_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "1e18292f178bb9021904b5ea8a485f4a096dd78dadf07ea2ba8a9e7cbbd2e268"
+    },
+    {
+      "path": "data/ablation/checkpoint33_traffic303/proposed_dqn_packet/S4_cross_ftp/summary_FORMAL.json",
+      "sha256": "8151a6981ea5c2b929fdf77388cb8ce99aee4d524310d67e7e108f3840c5c18f",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint33_traffic303/proposed_dqn_packet/S4_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "9d2817288721346358bbd34502c02c68bdd941f689ceb370f0edc6d1a0979190"
+    },
+    {
+      "path": "data/ablation/checkpoint33_traffic303/proposed_gat_dqn_packet/S1_non_cross_normal/summary_FORMAL.json",
+      "sha256": "d8b32ea4e0ee96fc7808fe03d097c9a9d425b05b4bbc71009647754dc4325bdb",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint33_traffic303/proposed_gat_dqn_packet/S1_non_cross_normal/summary_FORMAL.json",
+      "source_sha256": "7f0b0625ac56a69b85d98052e54983f5386441dcfb8d732923b0fc08d7c0d769"
+    },
+    {
+      "path": "data/ablation/checkpoint33_traffic303/proposed_gat_dqn_packet/S2_cross_normal/summary_FORMAL.json",
+      "sha256": "8dc4a31967294358d6751d0f6974d1a61029daa576542df2832ee02fc960e317",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint33_traffic303/proposed_gat_dqn_packet/S2_cross_normal/summary_FORMAL.json",
+      "source_sha256": "9878e2608407a90636e9f4c898385d1ace240901c0e02380b4267cdbe7bb5b68"
+    },
+    {
+      "path": "data/ablation/checkpoint33_traffic303/proposed_gat_dqn_packet/S3_non_cross_ftp/summary_FORMAL.json",
+      "sha256": "42e774fe0ba37d45dda34f306fcc7c448de4835278dfb48830614ac36452ab91",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint33_traffic303/proposed_gat_dqn_packet/S3_non_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "829bed54828eadccedd92c3fd9c7f328b8f2deb00f603c5eba5f2ee157a72f77"
+    },
+    {
+      "path": "data/ablation/checkpoint33_traffic303/proposed_gat_dqn_packet/S4_cross_ftp/summary_FORMAL.json",
+      "sha256": "d80fa2f5e8196392313015f6cd1553d2a0b37a03fbd61428614139a1a407a6e3",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint33_traffic303/proposed_gat_dqn_packet/S4_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "965b5d91b42d1e0702320d4393d908d913d4b4eaf253b1ef55fd7d849e3ec29b"
+    },
+    {
+      "path": "data/ablation/checkpoint33_traffic303/proposed_lstm_dqn_packet/S1_non_cross_normal/summary_FORMAL.json",
+      "sha256": "1a72b83a0b4d8cb834bbcc98779f07d1b1bf5f98fc4f5e5edf9a5f36b7a3f8c6",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint33_traffic303/proposed_lstm_dqn_packet/S1_non_cross_normal/summary_FORMAL.json",
+      "source_sha256": "4ff9ac57deff6c079209ef483cd93609ae89c9d8ca9144a98ba8fc2a8ca3875a"
+    },
+    {
+      "path": "data/ablation/checkpoint33_traffic303/proposed_lstm_dqn_packet/S2_cross_normal/summary_FORMAL.json",
+      "sha256": "46073606d961f0cb4a728180ae6557cf9e85235bc355a46999b3872b7224ea77",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint33_traffic303/proposed_lstm_dqn_packet/S2_cross_normal/summary_FORMAL.json",
+      "source_sha256": "1d2f5ce34a5e8513a706d549dd50ca1a461d254478e7451cd906bb770cdb1c9a"
+    },
+    {
+      "path": "data/ablation/checkpoint33_traffic303/proposed_lstm_dqn_packet/S3_non_cross_ftp/summary_FORMAL.json",
+      "sha256": "1fdb792a3a47e1c5c1be59400d281ecbdc4e9fbf08f3e150c3942844a38061e6",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint33_traffic303/proposed_lstm_dqn_packet/S3_non_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "7e986be0cf56e84d4381b4dad2ec46606ae63677994d7fe92e92963ba3deff8c"
+    },
+    {
+      "path": "data/ablation/checkpoint33_traffic303/proposed_lstm_dqn_packet/S4_cross_ftp/summary_FORMAL.json",
+      "sha256": "8ee6119bbf0266b6425cbd789708b01e73ecb813e7f4c153f1c99338833ff5ad",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint33_traffic303/proposed_lstm_dqn_packet/S4_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "59d6edda98c65b0c41db322fb77d3af94711c5c8e5c3dbabf34b4bc0b98f806e"
+    },
+    {
+      "path": "data/ablation/checkpoint44_traffic404/trace_manifest.json",
+      "sha256": "15e467b921539ea5cbdd0dcc8531ac6279335ceaccecdf9f556c81d1b075417e",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint44_traffic404/trace_manifest.json",
+      "source_sha256": "15e467b921539ea5cbdd0dcc8531ac6279335ceaccecdf9f556c81d1b075417e"
+    },
+    {
+      "path": "data/ablation/checkpoint44_traffic404/proposed_dqn_packet/S1_non_cross_normal/summary_FORMAL.json",
+      "sha256": "5296ce1563849c7369039dbe6968f3fc271325ed99e9e777e303ef7ad221c3f0",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint44_traffic404/proposed_dqn_packet/S1_non_cross_normal/summary_FORMAL.json",
+      "source_sha256": "9cb9e70293dda6bc27044c039d86f05782e8a68a92e383d7143eaabd2f17cab5"
+    },
+    {
+      "path": "data/ablation/checkpoint44_traffic404/proposed_dqn_packet/S2_cross_normal/summary_FORMAL.json",
+      "sha256": "28051e8a129f51f2495a6116e23b2a36e0d8fbc751b0594b73a117901b37eb1e",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint44_traffic404/proposed_dqn_packet/S2_cross_normal/summary_FORMAL.json",
+      "source_sha256": "f7e993a8ff8960c2436378e2a69a566f34abf8c7063addc927503100dfb78d58"
+    },
+    {
+      "path": "data/ablation/checkpoint44_traffic404/proposed_dqn_packet/S3_non_cross_ftp/summary_FORMAL.json",
+      "sha256": "9af6601041316d24f7535b70e8fe0a3853f87aa7af65708fe3948274b6092106",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint44_traffic404/proposed_dqn_packet/S3_non_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "e5c0e91a252fee3a02bbe8c0cf5561bcd20690f18a5c5ba5fc92ce27eb7a2cc7"
+    },
+    {
+      "path": "data/ablation/checkpoint44_traffic404/proposed_dqn_packet/S4_cross_ftp/summary_FORMAL.json",
+      "sha256": "155429c10b79ad7e86990deef147120471e0235769ad750faf5874ff20a2e8f6",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint44_traffic404/proposed_dqn_packet/S4_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "53afe2c7b7e7a31d63d8321efc731a9acef107e6b5d85ca31b2b5826329f7c26"
+    },
+    {
+      "path": "data/ablation/checkpoint44_traffic404/proposed_gat_dqn_packet/S1_non_cross_normal/summary_FORMAL.json",
+      "sha256": "0ae19435d84e58e76dd47cf11680021d3453f8035960960dc76a93eeb45d8f67",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint44_traffic404/proposed_gat_dqn_packet/S1_non_cross_normal/summary_FORMAL.json",
+      "source_sha256": "4d9d1557df30191ef63cbd50e4e54000b00a4b7164c6cb26fd6933ee58d7ef1e"
+    },
+    {
+      "path": "data/ablation/checkpoint44_traffic404/proposed_gat_dqn_packet/S2_cross_normal/summary_FORMAL.json",
+      "sha256": "77245b8c53390a13d790a98b58de4612859d8cafe19106326eab6fe24e4aab2d",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint44_traffic404/proposed_gat_dqn_packet/S2_cross_normal/summary_FORMAL.json",
+      "source_sha256": "c5bef3f863b489e9b4b12ac7dd55462d3ed10e4ab42bf07c9a46e0a829133ba8"
+    },
+    {
+      "path": "data/ablation/checkpoint44_traffic404/proposed_gat_dqn_packet/S3_non_cross_ftp/summary_FORMAL.json",
+      "sha256": "8ddd2795e3b6e20691be9e48b2fec622422cbcc4dc3b8744e2114184a9d5162a",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint44_traffic404/proposed_gat_dqn_packet/S3_non_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "8bf64608ebe4ff5113e86005fca20c6b895e26d2a9ce98e217e5b7dd6eb6b496"
+    },
+    {
+      "path": "data/ablation/checkpoint44_traffic404/proposed_gat_dqn_packet/S4_cross_ftp/summary_FORMAL.json",
+      "sha256": "f25d2daf59eb3300358de5bbb9deee5236f85cb9518c97af949f29f77c412826",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint44_traffic404/proposed_gat_dqn_packet/S4_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "0cbe1843b5073d4aecea4d938be9da7237e767301cfb5d8c3c372fb04ae60036"
+    },
+    {
+      "path": "data/ablation/checkpoint44_traffic404/proposed_lstm_dqn_packet/S1_non_cross_normal/summary_FORMAL.json",
+      "sha256": "39d7cea9b5e26e125431dc37e0f03bc692875200d7486ab70fc7d685bf4d2073",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint44_traffic404/proposed_lstm_dqn_packet/S1_non_cross_normal/summary_FORMAL.json",
+      "source_sha256": "108b023da496a944a86d77d009fe355206e4e1e958add5bc1aec65027e61ef2e"
+    },
+    {
+      "path": "data/ablation/checkpoint44_traffic404/proposed_lstm_dqn_packet/S2_cross_normal/summary_FORMAL.json",
+      "sha256": "2fa3ad3dc538653b1570abfde85f4a5e63458b94b0c39bb1278ea6e3e11f6117",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint44_traffic404/proposed_lstm_dqn_packet/S2_cross_normal/summary_FORMAL.json",
+      "source_sha256": "a61b2ccc7e0f26b4d299078ae3824399ed54df3c5cde0e4ad61ad586b0e483d1"
+    },
+    {
+      "path": "data/ablation/checkpoint44_traffic404/proposed_lstm_dqn_packet/S3_non_cross_ftp/summary_FORMAL.json",
+      "sha256": "05fe4099bd49e1d5332c4eaf0617cf3ede8576af0a428f5647651f1228867d58",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint44_traffic404/proposed_lstm_dqn_packet/S3_non_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "e95add18f346e0f6f05243914905050c10a7cc703b807fa9b78e3b0096792394"
+    },
+    {
+      "path": "data/ablation/checkpoint44_traffic404/proposed_lstm_dqn_packet/S4_cross_ftp/summary_FORMAL.json",
+      "sha256": "52bcd7f318a0440538187edc7fc7dd7f1a744fc7faa58eea3a124d2d2d97ee2e",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint44_traffic404/proposed_lstm_dqn_packet/S4_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "a7b7aedd1668593db5d11abb97197f3537ad554270b5e108ea0cb93d7184cfe4"
+    },
+    {
+      "path": "data/ablation/checkpoint55_traffic505/trace_manifest.json",
+      "sha256": "da4b154bb9010fb7cd16c88f5cc436bd38d6349e0089b8076ce7064014274c5b",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint55_traffic505/trace_manifest.json",
+      "source_sha256": "da4b154bb9010fb7cd16c88f5cc436bd38d6349e0089b8076ce7064014274c5b"
+    },
+    {
+      "path": "data/ablation/checkpoint55_traffic505/proposed_dqn_packet/S1_non_cross_normal/summary_FORMAL.json",
+      "sha256": "a6be8980da6558a6aa3c2bcb86fa78f6f1ab30ff9a8a4b89dfdd6e910a0c1dcc",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint55_traffic505/proposed_dqn_packet/S1_non_cross_normal/summary_FORMAL.json",
+      "source_sha256": "0e38a94de4f163a531dac24ea902b71b2c5aad5af6b8b281fffe783a3589198b"
+    },
+    {
+      "path": "data/ablation/checkpoint55_traffic505/proposed_dqn_packet/S2_cross_normal/summary_FORMAL.json",
+      "sha256": "f23900b54a048c2fbe05a3bdcc0518a54af27f5aed519553b4362020f75d60af",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint55_traffic505/proposed_dqn_packet/S2_cross_normal/summary_FORMAL.json",
+      "source_sha256": "f93378aaf23d987da257098d1b10eaa54f90f4c5a3556dcbbfbdf19d79897f61"
+    },
+    {
+      "path": "data/ablation/checkpoint55_traffic505/proposed_dqn_packet/S3_non_cross_ftp/summary_FORMAL.json",
+      "sha256": "88daf866d91caa83e2fec1de0c07873ebdb9aea4f046ea4e78481ee8296f156e",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint55_traffic505/proposed_dqn_packet/S3_non_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "36cc7a8fe67a495756a445c89cfee20720ace830cbda3f526cd8d31daeea662b"
+    },
+    {
+      "path": "data/ablation/checkpoint55_traffic505/proposed_dqn_packet/S4_cross_ftp/summary_FORMAL.json",
+      "sha256": "5b0953b97b92c3a96de3ed0cc2914aab9ad2f04775f8f17e0adc40bbd495d8ab",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint55_traffic505/proposed_dqn_packet/S4_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "ce8c4824a803c57bc371815d418c9c55647c9c194234186f4d8b929fe1a8b344"
+    },
+    {
+      "path": "data/ablation/checkpoint55_traffic505/proposed_gat_dqn_packet/S1_non_cross_normal/summary_FORMAL.json",
+      "sha256": "2e74a9ec1619281a1791951bebaa9dc8164219f4d8745732cfe92f02ec02bff7",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint55_traffic505/proposed_gat_dqn_packet/S1_non_cross_normal/summary_FORMAL.json",
+      "source_sha256": "b505b5582cb2f86a6ae11555c45ef31ebbb6599e29a547250d8504090bac2504"
+    },
+    {
+      "path": "data/ablation/checkpoint55_traffic505/proposed_gat_dqn_packet/S2_cross_normal/summary_FORMAL.json",
+      "sha256": "ffadd3e851a04e7c3b95ada3438f1bb9db8844d487e60ea02a622b91a7274d61",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint55_traffic505/proposed_gat_dqn_packet/S2_cross_normal/summary_FORMAL.json",
+      "source_sha256": "e10bb7c47af2cd409cbcf33cf9e0c8610a2d417b2149080c69f1f76eea2744c1"
+    },
+    {
+      "path": "data/ablation/checkpoint55_traffic505/proposed_gat_dqn_packet/S3_non_cross_ftp/summary_FORMAL.json",
+      "sha256": "2346a87187f11e8dba457a2c087b8b0e0a4e015b02f0a631a31693b97a7e75e9",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint55_traffic505/proposed_gat_dqn_packet/S3_non_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "b0670a354cf1947d49ddd418950e57b1f4ce2d1948338bdeaae6cda93a7c7eae"
+    },
+    {
+      "path": "data/ablation/checkpoint55_traffic505/proposed_gat_dqn_packet/S4_cross_ftp/summary_FORMAL.json",
+      "sha256": "75c704f8db0a62227223dba822558267084e41dc4582f7a97c1d19c69257e863",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint55_traffic505/proposed_gat_dqn_packet/S4_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "aa5c5b795ed9941616127af892ce1bb7dfdbd9d8f40795d85a0487723314554a"
+    },
+    {
+      "path": "data/ablation/checkpoint55_traffic505/proposed_lstm_dqn_packet/S1_non_cross_normal/summary_FORMAL.json",
+      "sha256": "ea8568052163147bd14c9ba0df04f07eea358caf3937da4df49db8e01c810797",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint55_traffic505/proposed_lstm_dqn_packet/S1_non_cross_normal/summary_FORMAL.json",
+      "source_sha256": "fb7b8a87800ebcc6c5b30f878ba965b7460f5852009327f4dff6dc8bf0fa266d"
+    },
+    {
+      "path": "data/ablation/checkpoint55_traffic505/proposed_lstm_dqn_packet/S2_cross_normal/summary_FORMAL.json",
+      "sha256": "9d7a26e6807315e61ede8989354c65b07b1f1134c8caaec3af1d052d38bcf214",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint55_traffic505/proposed_lstm_dqn_packet/S2_cross_normal/summary_FORMAL.json",
+      "source_sha256": "2c5b44441a9f924db0e104c0b7c623e64bb8533f12135fbde5e575335f58600f"
+    },
+    {
+      "path": "data/ablation/checkpoint55_traffic505/proposed_lstm_dqn_packet/S3_non_cross_ftp/summary_FORMAL.json",
+      "sha256": "a205f795bf188b6659dd924beff87544cd1bfe09649128dc8ca0eda3c38ab731",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint55_traffic505/proposed_lstm_dqn_packet/S3_non_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "a48a50a8b7cfb3da70aef7dc03c37da2c7dd9911912ad09c15d36e012fc0f3f7"
+    },
+    {
+      "path": "data/ablation/checkpoint55_traffic505/proposed_lstm_dqn_packet/S4_cross_ftp/summary_FORMAL.json",
+      "sha256": "5d680e59fdb2956a4a1869bb1848194838a58e66856cc1b1e09dcb1214789909",
+      "source": "outputs/packet_ablation_formal_load240_fiveseed/checkpoint55_traffic505/proposed_lstm_dqn_packet/S4_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "8e66066de06ce21cf7c9ff59ee6bab829fff3f8685cbe173a0914402a805597a"
+    },
+    {
+      "path": "data/burst/FORMAL_COMPLETE.ok",
+      "sha256": "e9d7a559fd63ff1bb1cb2ec4efec1bc1172cd7860b626429d741be1aabcf8730",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/FORMAL_COMPLETE.ok",
+      "source_sha256": "e9d7a559fd63ff1bb1cb2ec4efec1bc1172cd7860b626429d741be1aabcf8730"
+    },
+    {
+      "path": "data/burst/packet_audit_FORMAL.json",
+      "sha256": "1442c1b40dfa6d11e703279fb345a388f5cf1bd049830174dfc422b89cfab1ad",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/packet_audit_FORMAL.json",
+      "source_sha256": "1442c1b40dfa6d11e703279fb345a388f5cf1bd049830174dfc422b89cfab1ad"
+    },
+    {
+      "path": "data/burst/checkpoint11_traffic101/dqn_ir_fixed_link/S3_non_cross_ftp/birth_cohorts.csv",
+      "sha256": "fd9e2c797ad04927ad9e12ee77b2ee5ff60bb6f5b7f950ffbd65358d8faedce1",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/analysis/cohort_cache/S3_non_cross_ftp_dqn_ir_fixed_link_11.csv",
+      "source_sha256": "fd9e2c797ad04927ad9e12ee77b2ee5ff60bb6f5b7f950ffbd65358d8faedce1"
+    },
+    {
+      "path": "data/burst/checkpoint11_traffic101/dqn_ir_fixed_link/S3_non_cross_ftp/slot_metrics_FORMAL.csv",
+      "sha256": "a60adcc781620ec4c38ebbd612d13b868be1c75ecc18331c7eecc7f6ea2b4f1c",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint11_traffic101/dqn_ir_fixed_link/S3_non_cross_ftp/slot_metrics_FORMAL.csv",
+      "source_sha256": "a60adcc781620ec4c38ebbd612d13b868be1c75ecc18331c7eecc7f6ea2b4f1c"
+    },
+    {
+      "path": "data/burst/checkpoint11_traffic101/dqn_ir_fixed_link/S3_non_cross_ftp/summary_FORMAL.json",
+      "sha256": "5f37956ae41397a86cd0bdaefe01d00c5a45ac9e908baf36173f14aa5c5ce435",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint11_traffic101/dqn_ir_fixed_link/S3_non_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "aa72575c9fd9e8099d880f1745db9b6f72d57efe2a90deab77ee21722acab189"
+    },
+    {
+      "path": "data/burst/checkpoint11_traffic101/dqn_ir_fixed_link/S4_cross_ftp/birth_cohorts.csv",
+      "sha256": "113e6b4578c811e86eccf5ae6e02b45566ae881b646d464e1036b34401173852",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/analysis/cohort_cache/S4_cross_ftp_dqn_ir_fixed_link_11.csv",
+      "source_sha256": "113e6b4578c811e86eccf5ae6e02b45566ae881b646d464e1036b34401173852"
+    },
+    {
+      "path": "data/burst/checkpoint11_traffic101/dqn_ir_fixed_link/S4_cross_ftp/slot_metrics_FORMAL.csv",
+      "sha256": "3e046d3b6aa645249845ed92c07a9fb857153390972f691e4a12641c24e4a4da",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint11_traffic101/dqn_ir_fixed_link/S4_cross_ftp/slot_metrics_FORMAL.csv",
+      "source_sha256": "3e046d3b6aa645249845ed92c07a9fb857153390972f691e4a12641c24e4a4da"
+    },
+    {
+      "path": "data/burst/checkpoint11_traffic101/dqn_ir_fixed_link/S4_cross_ftp/summary_FORMAL.json",
+      "sha256": "3dcf2d46bce53d40cdc05f8916a536ee93f815e843b260ab9f88d24b399e0ace",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint11_traffic101/dqn_ir_fixed_link/S4_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "2b8e644496fc22302ea2ab0159a289f59a06140c44a39ade1a4e062c5b6a3b9d"
+    },
+    {
+      "path": "data/burst/checkpoint11_traffic101/fdr_marl_adapted/S3_non_cross_ftp/birth_cohorts.csv",
+      "sha256": "9bc2a15952a7c8451a3c4c252911a5eb15699585a84ee966c972ba0ea5e58c42",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/analysis/cohort_cache/S3_non_cross_ftp_fdr_marl_adapted_11.csv",
+      "source_sha256": "9bc2a15952a7c8451a3c4c252911a5eb15699585a84ee966c972ba0ea5e58c42"
+    },
+    {
+      "path": "data/burst/checkpoint11_traffic101/fdr_marl_adapted/S3_non_cross_ftp/slot_metrics_FORMAL.csv",
+      "sha256": "1c411fde4cb5bb7dc6b0d0c78d5ff62627da508e47a518a07d582c69d2314afe",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint11_traffic101/fdr_marl_adapted/S3_non_cross_ftp/slot_metrics_FORMAL.csv",
+      "source_sha256": "1c411fde4cb5bb7dc6b0d0c78d5ff62627da508e47a518a07d582c69d2314afe"
+    },
+    {
+      "path": "data/burst/checkpoint11_traffic101/fdr_marl_adapted/S3_non_cross_ftp/summary_FORMAL.json",
+      "sha256": "77a609a9d488270c7d39e3cf2fee5a58f7dda8644f2ed6a3cf4f509d04c1a8c1",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint11_traffic101/fdr_marl_adapted/S3_non_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "31c08a44166f265cb9938519b8ba5456b1a52389c4be120ed006c8de8ad94b8c"
+    },
+    {
+      "path": "data/burst/checkpoint11_traffic101/fdr_marl_adapted/S4_cross_ftp/birth_cohorts.csv",
+      "sha256": "f1af344a9906a5f481193e95ccc8115bd168b8e502591b73053a1ceb26fcdd73",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/analysis/cohort_cache/S4_cross_ftp_fdr_marl_adapted_11.csv",
+      "source_sha256": "f1af344a9906a5f481193e95ccc8115bd168b8e502591b73053a1ceb26fcdd73"
+    },
+    {
+      "path": "data/burst/checkpoint11_traffic101/fdr_marl_adapted/S4_cross_ftp/slot_metrics_FORMAL.csv",
+      "sha256": "e05465946a632f0447db029bedb071f98295f78b95b3c30236aa0eaf6d1460f4",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint11_traffic101/fdr_marl_adapted/S4_cross_ftp/slot_metrics_FORMAL.csv",
+      "source_sha256": "e05465946a632f0447db029bedb071f98295f78b95b3c30236aa0eaf6d1460f4"
+    },
+    {
+      "path": "data/burst/checkpoint11_traffic101/fdr_marl_adapted/S4_cross_ftp/summary_FORMAL.json",
+      "sha256": "0406a9f3449eea93aeb90cbc60d1addcc1928b002ece2599d5cc2a91530e922c",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint11_traffic101/fdr_marl_adapted/S4_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "f5b805982aac79d9a7da6f5cf91fe82bc67efa14722c7da73b0c616a1f6ae315"
+    },
+    {
+      "path": "data/burst/checkpoint11_traffic101/graphpr_adapted/S3_non_cross_ftp/birth_cohorts.csv",
+      "sha256": "ee2745172c81bfe634073c729f677a01e6eb95051be8bd6421512d4652c4a7e0",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/analysis/cohort_cache/S3_non_cross_ftp_graphpr_adapted_11.csv",
+      "source_sha256": "ee2745172c81bfe634073c729f677a01e6eb95051be8bd6421512d4652c4a7e0"
+    },
+    {
+      "path": "data/burst/checkpoint11_traffic101/graphpr_adapted/S3_non_cross_ftp/slot_metrics_FORMAL.csv",
+      "sha256": "b5ea748ad7b3c72298445a7a3df1527e574d410a07555dc84d9b857340ef55e4",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint11_traffic101/graphpr_adapted/S3_non_cross_ftp/slot_metrics_FORMAL.csv",
+      "source_sha256": "b5ea748ad7b3c72298445a7a3df1527e574d410a07555dc84d9b857340ef55e4"
+    },
+    {
+      "path": "data/burst/checkpoint11_traffic101/graphpr_adapted/S3_non_cross_ftp/summary_FORMAL.json",
+      "sha256": "30f75df6b6136eda38306135b11700588e1f519b3137d699317ae33d67baea69",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint11_traffic101/graphpr_adapted/S3_non_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "a59e8043f5a3cb69d7e2373b24dd9ccd0c74f4a580b3679a453f38ad3a7f0225"
+    },
+    {
+      "path": "data/burst/checkpoint11_traffic101/graphpr_adapted/S4_cross_ftp/birth_cohorts.csv",
+      "sha256": "994c03833a8374a6d60dbca870ca062e435e22633344304adcdb5e023416db4f",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/analysis/cohort_cache/S4_cross_ftp_graphpr_adapted_11.csv",
+      "source_sha256": "994c03833a8374a6d60dbca870ca062e435e22633344304adcdb5e023416db4f"
+    },
+    {
+      "path": "data/burst/checkpoint11_traffic101/graphpr_adapted/S4_cross_ftp/slot_metrics_FORMAL.csv",
+      "sha256": "1361fcf6504a28b148784eb227bf57ec1ba09c1071149e10873fcd73214dc58d",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint11_traffic101/graphpr_adapted/S4_cross_ftp/slot_metrics_FORMAL.csv",
+      "source_sha256": "1361fcf6504a28b148784eb227bf57ec1ba09c1071149e10873fcd73214dc58d"
+    },
+    {
+      "path": "data/burst/checkpoint11_traffic101/graphpr_adapted/S4_cross_ftp/summary_FORMAL.json",
+      "sha256": "1838a0a323c07d0219273221a2748e3210cef9cf23a59829d8a81a41e0b511ab",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint11_traffic101/graphpr_adapted/S4_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "d88c7eb06341cc8d9bf2a4d49c5e1d84ef33bffc643e8617b78dae59ae2e1560"
+    },
+    {
+      "path": "data/burst/checkpoint11_traffic101/proposed_gat_lstm_packet/S3_non_cross_ftp/birth_cohorts.csv",
+      "sha256": "08c0333a451df90ed561554e7b688f413eff845804e57bd27f6be8dd358c92c2",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/analysis/cohort_cache/S3_non_cross_ftp_proposed_gat_lstm_packet_11.csv",
+      "source_sha256": "08c0333a451df90ed561554e7b688f413eff845804e57bd27f6be8dd358c92c2"
+    },
+    {
+      "path": "data/burst/checkpoint11_traffic101/proposed_gat_lstm_packet/S3_non_cross_ftp/slot_metrics_FORMAL.csv",
+      "sha256": "c4d6b5983278768c628102f52f013affaa40ca664fa589f6bbff9d9cb669bb97",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint11_traffic101/proposed_gat_lstm_packet/S3_non_cross_ftp/slot_metrics_FORMAL.csv",
+      "source_sha256": "c4d6b5983278768c628102f52f013affaa40ca664fa589f6bbff9d9cb669bb97"
+    },
+    {
+      "path": "data/burst/checkpoint11_traffic101/proposed_gat_lstm_packet/S3_non_cross_ftp/summary_FORMAL.json",
+      "sha256": "97ed8eca65e183ddf9442be5e80c4b6c37ea924ca68536db8ddd422f0fc4244c",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint11_traffic101/proposed_gat_lstm_packet/S3_non_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "15b7ce6e43a62bc3593e33e1807f66b60810e40c68b808f8c8922d5664ed67ca"
+    },
+    {
+      "path": "data/burst/checkpoint11_traffic101/proposed_gat_lstm_packet/S4_cross_ftp/birth_cohorts.csv",
+      "sha256": "06400b32a41a5e4821efe91d03185b59a567c63d5ef877eabcdbf2eb4629431c",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/analysis/cohort_cache/S4_cross_ftp_proposed_gat_lstm_packet_11.csv",
+      "source_sha256": "06400b32a41a5e4821efe91d03185b59a567c63d5ef877eabcdbf2eb4629431c"
+    },
+    {
+      "path": "data/burst/checkpoint11_traffic101/proposed_gat_lstm_packet/S4_cross_ftp/slot_metrics_FORMAL.csv",
+      "sha256": "66dedd9b2749ce79298a156f81651b80921b25549ecaaec3e71364251ead61f5",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint11_traffic101/proposed_gat_lstm_packet/S4_cross_ftp/slot_metrics_FORMAL.csv",
+      "source_sha256": "66dedd9b2749ce79298a156f81651b80921b25549ecaaec3e71364251ead61f5"
+    },
+    {
+      "path": "data/burst/checkpoint11_traffic101/proposed_gat_lstm_packet/S4_cross_ftp/summary_FORMAL.json",
+      "sha256": "1d1eaff920b4f9c9af82f533ada14e6564a95ecfd19e81411b418d0c31a0909c",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint11_traffic101/proposed_gat_lstm_packet/S4_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "1208a3482e7af00f1588b559e8b6d195bd63ef30b10fb23f82e9184c7f76ab05"
+    },
+    {
+      "path": "data/burst/checkpoint22_traffic202/dqn_ir_fixed_link/S3_non_cross_ftp/birth_cohorts.csv",
+      "sha256": "56fd962ffe666494348c08db4a646318a2ee35ab9b8cbf244cdc5c0c884c93ba",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/analysis/cohort_cache/S3_non_cross_ftp_dqn_ir_fixed_link_22.csv",
+      "source_sha256": "56fd962ffe666494348c08db4a646318a2ee35ab9b8cbf244cdc5c0c884c93ba"
+    },
+    {
+      "path": "data/burst/checkpoint22_traffic202/dqn_ir_fixed_link/S3_non_cross_ftp/slot_metrics_FORMAL.csv",
+      "sha256": "6733e322cca181861848b81c52cb858bce479a4bf81760129b3ba2a68d43bb58",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint22_traffic202/dqn_ir_fixed_link/S3_non_cross_ftp/slot_metrics_FORMAL.csv",
+      "source_sha256": "6733e322cca181861848b81c52cb858bce479a4bf81760129b3ba2a68d43bb58"
+    },
+    {
+      "path": "data/burst/checkpoint22_traffic202/dqn_ir_fixed_link/S3_non_cross_ftp/summary_FORMAL.json",
+      "sha256": "eb0e881e3ef951d867a2036238919aea74510edba5b55d7a1aeb930d468296c5",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint22_traffic202/dqn_ir_fixed_link/S3_non_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "c14c8feb8b6ae13f684e6c9e50eed0a19488a6f1fdd9cd95af1dd7e3d686d5c9"
+    },
+    {
+      "path": "data/burst/checkpoint22_traffic202/dqn_ir_fixed_link/S4_cross_ftp/birth_cohorts.csv",
+      "sha256": "553eb7859e4e3f893fe0b1df702de9ed29ba53ee3a6ab208fae43c992c318fbf",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/analysis/cohort_cache/S4_cross_ftp_dqn_ir_fixed_link_22.csv",
+      "source_sha256": "553eb7859e4e3f893fe0b1df702de9ed29ba53ee3a6ab208fae43c992c318fbf"
+    },
+    {
+      "path": "data/burst/checkpoint22_traffic202/dqn_ir_fixed_link/S4_cross_ftp/slot_metrics_FORMAL.csv",
+      "sha256": "3afe13ec3ea545d7675bc4bbccfa8cc834adce36879edf860cc365ee7b44f276",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint22_traffic202/dqn_ir_fixed_link/S4_cross_ftp/slot_metrics_FORMAL.csv",
+      "source_sha256": "3afe13ec3ea545d7675bc4bbccfa8cc834adce36879edf860cc365ee7b44f276"
+    },
+    {
+      "path": "data/burst/checkpoint22_traffic202/dqn_ir_fixed_link/S4_cross_ftp/summary_FORMAL.json",
+      "sha256": "c507a729b7a59d58b72b35a1859d7ef75fd1d0b60322769b2fc0e13adb6ac54d",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint22_traffic202/dqn_ir_fixed_link/S4_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "f75aa45047606a45db37bd64074eb4f0718afeeb189276bd4984fb1daf18b793"
+    },
+    {
+      "path": "data/burst/checkpoint22_traffic202/fdr_marl_adapted/S3_non_cross_ftp/birth_cohorts.csv",
+      "sha256": "61c2d646b235201f301844190036ef94fa9686eb70f620cb7038ed5823c99ec3",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/analysis/cohort_cache/S3_non_cross_ftp_fdr_marl_adapted_22.csv",
+      "source_sha256": "61c2d646b235201f301844190036ef94fa9686eb70f620cb7038ed5823c99ec3"
+    },
+    {
+      "path": "data/burst/checkpoint22_traffic202/fdr_marl_adapted/S3_non_cross_ftp/slot_metrics_FORMAL.csv",
+      "sha256": "ae03e6a46238d74a7e161c1b0bdbe00236322b02d473059a333744d6fc191450",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint22_traffic202/fdr_marl_adapted/S3_non_cross_ftp/slot_metrics_FORMAL.csv",
+      "source_sha256": "ae03e6a46238d74a7e161c1b0bdbe00236322b02d473059a333744d6fc191450"
+    },
+    {
+      "path": "data/burst/checkpoint22_traffic202/fdr_marl_adapted/S3_non_cross_ftp/summary_FORMAL.json",
+      "sha256": "154c065cb4fb85ebef4736c9d4e446ecc069d5af6e835d9fe618bd687f92189d",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint22_traffic202/fdr_marl_adapted/S3_non_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "4dee1ef3bcab125536112e0fdb553199a973a045c5e8ed49941536fe109fd7e9"
+    },
+    {
+      "path": "data/burst/checkpoint22_traffic202/fdr_marl_adapted/S4_cross_ftp/birth_cohorts.csv",
+      "sha256": "a86b16c39805b786b8863f2b987ff1981e4d984d6c0947698c47085f4c9e9104",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/analysis/cohort_cache/S4_cross_ftp_fdr_marl_adapted_22.csv",
+      "source_sha256": "a86b16c39805b786b8863f2b987ff1981e4d984d6c0947698c47085f4c9e9104"
+    },
+    {
+      "path": "data/burst/checkpoint22_traffic202/fdr_marl_adapted/S4_cross_ftp/slot_metrics_FORMAL.csv",
+      "sha256": "85724dd099303da9e6db44d0f4e722954cbfe86542bc84a26a0d6b5db1c69df1",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint22_traffic202/fdr_marl_adapted/S4_cross_ftp/slot_metrics_FORMAL.csv",
+      "source_sha256": "85724dd099303da9e6db44d0f4e722954cbfe86542bc84a26a0d6b5db1c69df1"
+    },
+    {
+      "path": "data/burst/checkpoint22_traffic202/fdr_marl_adapted/S4_cross_ftp/summary_FORMAL.json",
+      "sha256": "27efe7cac78c6ace603313238a12678b7542914eee37578be97a4f77d8585928",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint22_traffic202/fdr_marl_adapted/S4_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "e9788b72c60d06140c2357e267ff1eed2e8aec871653ccfef924eca0ce8dc8cb"
+    },
+    {
+      "path": "data/burst/checkpoint22_traffic202/graphpr_adapted/S3_non_cross_ftp/birth_cohorts.csv",
+      "sha256": "0e946aadb9af96e0c462ee5c5c1179e990bf96e5ffdf85836b389431d7b9c16c",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/analysis/cohort_cache/S3_non_cross_ftp_graphpr_adapted_22.csv",
+      "source_sha256": "0e946aadb9af96e0c462ee5c5c1179e990bf96e5ffdf85836b389431d7b9c16c"
+    },
+    {
+      "path": "data/burst/checkpoint22_traffic202/graphpr_adapted/S3_non_cross_ftp/slot_metrics_FORMAL.csv",
+      "sha256": "10628bce40a3c643b81d9c73e0229f3b6b29768d732aacda98b4008b670a042f",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint22_traffic202/graphpr_adapted/S3_non_cross_ftp/slot_metrics_FORMAL.csv",
+      "source_sha256": "10628bce40a3c643b81d9c73e0229f3b6b29768d732aacda98b4008b670a042f"
+    },
+    {
+      "path": "data/burst/checkpoint22_traffic202/graphpr_adapted/S3_non_cross_ftp/summary_FORMAL.json",
+      "sha256": "b03ec7ea6fd4fb9766b3aa30a36cb91dfb29a2ead6f11aa7b16a12949f9dbff2",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint22_traffic202/graphpr_adapted/S3_non_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "658220bb53c8c3ca67cebda0a9200b9581f0a31770677b093c5abeeb233ac3d9"
+    },
+    {
+      "path": "data/burst/checkpoint22_traffic202/graphpr_adapted/S4_cross_ftp/birth_cohorts.csv",
+      "sha256": "95d861b071f73df53adf3e04ea0537f394355e16f503aed93c840d15b6c7b5ec",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/analysis/cohort_cache/S4_cross_ftp_graphpr_adapted_22.csv",
+      "source_sha256": "95d861b071f73df53adf3e04ea0537f394355e16f503aed93c840d15b6c7b5ec"
+    },
+    {
+      "path": "data/burst/checkpoint22_traffic202/graphpr_adapted/S4_cross_ftp/slot_metrics_FORMAL.csv",
+      "sha256": "a4dd8a007da3c9c39e789c9e7b64a97c468b0e1eba0d8561c08594f34efa84ff",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint22_traffic202/graphpr_adapted/S4_cross_ftp/slot_metrics_FORMAL.csv",
+      "source_sha256": "a4dd8a007da3c9c39e789c9e7b64a97c468b0e1eba0d8561c08594f34efa84ff"
+    },
+    {
+      "path": "data/burst/checkpoint22_traffic202/graphpr_adapted/S4_cross_ftp/summary_FORMAL.json",
+      "sha256": "7529526759dea81544ce38eb690b57a7bf2c09ad34fb18ddde933727404eed79",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint22_traffic202/graphpr_adapted/S4_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "2f871a6a149490dc29dd38be66a0f2958f659bc04489a06bbb77a4c122076570"
+    },
+    {
+      "path": "data/burst/checkpoint22_traffic202/proposed_gat_lstm_packet/S3_non_cross_ftp/birth_cohorts.csv",
+      "sha256": "b0ce0781c1c0140dfd1761ebdf2f6ed1f0eb042ba14e91adc824cafc22349750",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/analysis/cohort_cache/S3_non_cross_ftp_proposed_gat_lstm_packet_22.csv",
+      "source_sha256": "b0ce0781c1c0140dfd1761ebdf2f6ed1f0eb042ba14e91adc824cafc22349750"
+    },
+    {
+      "path": "data/burst/checkpoint22_traffic202/proposed_gat_lstm_packet/S3_non_cross_ftp/slot_metrics_FORMAL.csv",
+      "sha256": "edda4a71fc6b23a7b51cef1fc862e29f52314f74fa46f617e6d3e7b36bdd2f1d",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint22_traffic202/proposed_gat_lstm_packet/S3_non_cross_ftp/slot_metrics_FORMAL.csv",
+      "source_sha256": "edda4a71fc6b23a7b51cef1fc862e29f52314f74fa46f617e6d3e7b36bdd2f1d"
+    },
+    {
+      "path": "data/burst/checkpoint22_traffic202/proposed_gat_lstm_packet/S3_non_cross_ftp/summary_FORMAL.json",
+      "sha256": "48bf4f2ba0f05db9dc53c1982134e8e04d4b40ae90154a4c7c42a6ab743d1ab7",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint22_traffic202/proposed_gat_lstm_packet/S3_non_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "3ac6167beba1f590f5633cc2768528b49044208b003ebb06196dce28b1eafcfc"
+    },
+    {
+      "path": "data/burst/checkpoint22_traffic202/proposed_gat_lstm_packet/S4_cross_ftp/birth_cohorts.csv",
+      "sha256": "3e2b8e741103184e607dcb83c06905163b3268f4abfb0f28ed9bc11e7ed8c6de",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/analysis/cohort_cache/S4_cross_ftp_proposed_gat_lstm_packet_22.csv",
+      "source_sha256": "3e2b8e741103184e607dcb83c06905163b3268f4abfb0f28ed9bc11e7ed8c6de"
+    },
+    {
+      "path": "data/burst/checkpoint22_traffic202/proposed_gat_lstm_packet/S4_cross_ftp/slot_metrics_FORMAL.csv",
+      "sha256": "b31c2920ad5e56a7216df018534ae44e6568fa3009eaf3b19d138392e50493ad",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint22_traffic202/proposed_gat_lstm_packet/S4_cross_ftp/slot_metrics_FORMAL.csv",
+      "source_sha256": "b31c2920ad5e56a7216df018534ae44e6568fa3009eaf3b19d138392e50493ad"
+    },
+    {
+      "path": "data/burst/checkpoint22_traffic202/proposed_gat_lstm_packet/S4_cross_ftp/summary_FORMAL.json",
+      "sha256": "3ee2050d6b91dd51607d5e99201d92786e343eed54e85b4f8ff38fa4181d3d9b",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint22_traffic202/proposed_gat_lstm_packet/S4_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "9275b96146672d148b177937cdae50caff0d55cba17ac6d716f0593cd9cb02cc"
+    },
+    {
+      "path": "data/burst/checkpoint33_traffic303/dqn_ir_fixed_link/S3_non_cross_ftp/birth_cohorts.csv",
+      "sha256": "3a83a208f95e618ea74f412c417d699aa9272dbdc6e96e0e384619253ffdaa41",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/analysis/cohort_cache/S3_non_cross_ftp_dqn_ir_fixed_link_33.csv",
+      "source_sha256": "3a83a208f95e618ea74f412c417d699aa9272dbdc6e96e0e384619253ffdaa41"
+    },
+    {
+      "path": "data/burst/checkpoint33_traffic303/dqn_ir_fixed_link/S3_non_cross_ftp/slot_metrics_FORMAL.csv",
+      "sha256": "8cdb1d9eb0dc3a52ab877369fa555b73f9e62d8366f1e8400db46d23ffdf53aa",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint33_traffic303/dqn_ir_fixed_link/S3_non_cross_ftp/slot_metrics_FORMAL.csv",
+      "source_sha256": "8cdb1d9eb0dc3a52ab877369fa555b73f9e62d8366f1e8400db46d23ffdf53aa"
+    },
+    {
+      "path": "data/burst/checkpoint33_traffic303/dqn_ir_fixed_link/S3_non_cross_ftp/summary_FORMAL.json",
+      "sha256": "b5340a9d9108b0951746f21b62e3591186a4b09257496cf9239132f1b51983ec",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint33_traffic303/dqn_ir_fixed_link/S3_non_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "b1616c91331f71059bbca52bd1b7853ecc46115374b919017ee34ef30fce87ee"
+    },
+    {
+      "path": "data/burst/checkpoint33_traffic303/dqn_ir_fixed_link/S4_cross_ftp/birth_cohorts.csv",
+      "sha256": "eb90ffeebb151b45c13e5b4bf87c145d02c664811eebe33c8ffd373bf548be05",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/analysis/cohort_cache/S4_cross_ftp_dqn_ir_fixed_link_33.csv",
+      "source_sha256": "eb90ffeebb151b45c13e5b4bf87c145d02c664811eebe33c8ffd373bf548be05"
+    },
+    {
+      "path": "data/burst/checkpoint33_traffic303/dqn_ir_fixed_link/S4_cross_ftp/slot_metrics_FORMAL.csv",
+      "sha256": "80cd6342f10ffb2cf416f1122a575f3659ebf09f5e993ef26b28e84121010d71",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint33_traffic303/dqn_ir_fixed_link/S4_cross_ftp/slot_metrics_FORMAL.csv",
+      "source_sha256": "80cd6342f10ffb2cf416f1122a575f3659ebf09f5e993ef26b28e84121010d71"
+    },
+    {
+      "path": "data/burst/checkpoint33_traffic303/dqn_ir_fixed_link/S4_cross_ftp/summary_FORMAL.json",
+      "sha256": "8dae2418296fd996b59a5b2c3cd3ec44ceb683bbc7c5ae99bf79204e383ae6e8",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint33_traffic303/dqn_ir_fixed_link/S4_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "829fe9f39f025c8062883a5727bca77d5f9628de3e3a98649a9c63cde284a1db"
+    },
+    {
+      "path": "data/burst/checkpoint33_traffic303/fdr_marl_adapted/S3_non_cross_ftp/birth_cohorts.csv",
+      "sha256": "c695c12cb02a7c0bab66b324e14056b430999aaee5e107de09413053e9b485e6",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/analysis/cohort_cache/S3_non_cross_ftp_fdr_marl_adapted_33.csv",
+      "source_sha256": "c695c12cb02a7c0bab66b324e14056b430999aaee5e107de09413053e9b485e6"
+    },
+    {
+      "path": "data/burst/checkpoint33_traffic303/fdr_marl_adapted/S3_non_cross_ftp/slot_metrics_FORMAL.csv",
+      "sha256": "693b462791aebae439bb71522ce39b87e78dd7e7da7959a20de410106d951cd2",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint33_traffic303/fdr_marl_adapted/S3_non_cross_ftp/slot_metrics_FORMAL.csv",
+      "source_sha256": "693b462791aebae439bb71522ce39b87e78dd7e7da7959a20de410106d951cd2"
+    },
+    {
+      "path": "data/burst/checkpoint33_traffic303/fdr_marl_adapted/S3_non_cross_ftp/summary_FORMAL.json",
+      "sha256": "ab190a9562a1209e897766258ad557953e325be48a4ce7f9ef91d73d1da7aff4",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint33_traffic303/fdr_marl_adapted/S3_non_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "946a18c9c56fb379bc5aa6425cd0cc7b161df615e6766c682ff77aff02d81c99"
+    },
+    {
+      "path": "data/burst/checkpoint33_traffic303/fdr_marl_adapted/S4_cross_ftp/birth_cohorts.csv",
+      "sha256": "0c81110e6ebd146c9b6226d3391f94c2e72549a1b1751419688d9309f2ea5014",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/analysis/cohort_cache/S4_cross_ftp_fdr_marl_adapted_33.csv",
+      "source_sha256": "0c81110e6ebd146c9b6226d3391f94c2e72549a1b1751419688d9309f2ea5014"
+    },
+    {
+      "path": "data/burst/checkpoint33_traffic303/fdr_marl_adapted/S4_cross_ftp/slot_metrics_FORMAL.csv",
+      "sha256": "fa19468a6b9964b585fca5e795fabf52b1ff893a17e02924a0db9c767392f29e",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint33_traffic303/fdr_marl_adapted/S4_cross_ftp/slot_metrics_FORMAL.csv",
+      "source_sha256": "fa19468a6b9964b585fca5e795fabf52b1ff893a17e02924a0db9c767392f29e"
+    },
+    {
+      "path": "data/burst/checkpoint33_traffic303/fdr_marl_adapted/S4_cross_ftp/summary_FORMAL.json",
+      "sha256": "f43c9b660ae83d6eb0b8d1921704f2facfb8afa1d6589882e4d5cc4a124acf81",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint33_traffic303/fdr_marl_adapted/S4_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "0408323fb1d712bfc8bc1af6bfacb38dcc0429ef6699c441d3cd3b26464624b3"
+    },
+    {
+      "path": "data/burst/checkpoint33_traffic303/graphpr_adapted/S3_non_cross_ftp/birth_cohorts.csv",
+      "sha256": "7061bbec282c8bfb73ac27a30e14deff0cf51e747df6d0fa0bb15791a6cf348a",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/analysis/cohort_cache/S3_non_cross_ftp_graphpr_adapted_33.csv",
+      "source_sha256": "7061bbec282c8bfb73ac27a30e14deff0cf51e747df6d0fa0bb15791a6cf348a"
+    },
+    {
+      "path": "data/burst/checkpoint33_traffic303/graphpr_adapted/S3_non_cross_ftp/slot_metrics_FORMAL.csv",
+      "sha256": "4c10b07cd0fce356e2d4abd60fbcd9fdfcb497f756f172c4ce89775e014da7a6",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint33_traffic303/graphpr_adapted/S3_non_cross_ftp/slot_metrics_FORMAL.csv",
+      "source_sha256": "4c10b07cd0fce356e2d4abd60fbcd9fdfcb497f756f172c4ce89775e014da7a6"
+    },
+    {
+      "path": "data/burst/checkpoint33_traffic303/graphpr_adapted/S3_non_cross_ftp/summary_FORMAL.json",
+      "sha256": "d005318f629926043df3d251b3d5751cb622a2d69571768e1c33edf79cb46611",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint33_traffic303/graphpr_adapted/S3_non_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "6c31277a560efb5e096898fee8fa6f79d4a48a9d5ef01af6a0a16997df96735c"
+    },
+    {
+      "path": "data/burst/checkpoint33_traffic303/graphpr_adapted/S4_cross_ftp/birth_cohorts.csv",
+      "sha256": "83bd990978875ea225c3cf412491348d80db14d611fb35b73076f2ef9f531b04",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/analysis/cohort_cache/S4_cross_ftp_graphpr_adapted_33.csv",
+      "source_sha256": "83bd990978875ea225c3cf412491348d80db14d611fb35b73076f2ef9f531b04"
+    },
+    {
+      "path": "data/burst/checkpoint33_traffic303/graphpr_adapted/S4_cross_ftp/slot_metrics_FORMAL.csv",
+      "sha256": "bcba0f66dd7934a93a8a66db8a87933779a0d8b55a59f5da0b4814f5dbb9b27c",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint33_traffic303/graphpr_adapted/S4_cross_ftp/slot_metrics_FORMAL.csv",
+      "source_sha256": "bcba0f66dd7934a93a8a66db8a87933779a0d8b55a59f5da0b4814f5dbb9b27c"
+    },
+    {
+      "path": "data/burst/checkpoint33_traffic303/graphpr_adapted/S4_cross_ftp/summary_FORMAL.json",
+      "sha256": "7ec03ee2d0ccffef88f317fadb38dc506f764aaf549ae72896ae6b7934ca0cf0",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint33_traffic303/graphpr_adapted/S4_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "184b563d5954be2a30ce36b78cc701d114aa5785a6691cc5ea092bded077c195"
+    },
+    {
+      "path": "data/burst/checkpoint33_traffic303/proposed_gat_lstm_packet/S3_non_cross_ftp/birth_cohorts.csv",
+      "sha256": "91a4fb0a35a9029cf3a8689fd7495619a2d3816572e7293bc5307049feb4d5bf",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/analysis/cohort_cache/S3_non_cross_ftp_proposed_gat_lstm_packet_33.csv",
+      "source_sha256": "91a4fb0a35a9029cf3a8689fd7495619a2d3816572e7293bc5307049feb4d5bf"
+    },
+    {
+      "path": "data/burst/checkpoint33_traffic303/proposed_gat_lstm_packet/S3_non_cross_ftp/slot_metrics_FORMAL.csv",
+      "sha256": "5648cee3013803cd0aa654a7b26ab42ef601427259d679cb20055381aedbfa16",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint33_traffic303/proposed_gat_lstm_packet/S3_non_cross_ftp/slot_metrics_FORMAL.csv",
+      "source_sha256": "5648cee3013803cd0aa654a7b26ab42ef601427259d679cb20055381aedbfa16"
+    },
+    {
+      "path": "data/burst/checkpoint33_traffic303/proposed_gat_lstm_packet/S3_non_cross_ftp/summary_FORMAL.json",
+      "sha256": "a822009b2d69334c0487adc455676461abb2c1a42bd32510b3793517daef4220",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint33_traffic303/proposed_gat_lstm_packet/S3_non_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "e8fc4f523cd7eec8140ae691c8f567eba69b13b188413781572e2134a298dac8"
+    },
+    {
+      "path": "data/burst/checkpoint33_traffic303/proposed_gat_lstm_packet/S4_cross_ftp/birth_cohorts.csv",
+      "sha256": "8a209ec79628255d594fb65326b00bc7c79352e45f7843a5c5539f05da4cb284",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/analysis/cohort_cache/S4_cross_ftp_proposed_gat_lstm_packet_33.csv",
+      "source_sha256": "8a209ec79628255d594fb65326b00bc7c79352e45f7843a5c5539f05da4cb284"
+    },
+    {
+      "path": "data/burst/checkpoint33_traffic303/proposed_gat_lstm_packet/S4_cross_ftp/slot_metrics_FORMAL.csv",
+      "sha256": "5e8a34fae6c07f3f429cca77ee9e2c236661cb53706111f1a9bf39f656f24d4e",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint33_traffic303/proposed_gat_lstm_packet/S4_cross_ftp/slot_metrics_FORMAL.csv",
+      "source_sha256": "5e8a34fae6c07f3f429cca77ee9e2c236661cb53706111f1a9bf39f656f24d4e"
+    },
+    {
+      "path": "data/burst/checkpoint33_traffic303/proposed_gat_lstm_packet/S4_cross_ftp/summary_FORMAL.json",
+      "sha256": "9c484e1fdac8d2fb71b3bbc4b0bca87cac31354b22569b08d634f0b3f8774485",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint33_traffic303/proposed_gat_lstm_packet/S4_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "b2fd1a102caeafbb7abbd1e45f903fa098f0878cc09dbeefefff628838d46c34"
+    },
+    {
+      "path": "data/burst/checkpoint44_traffic404/dqn_ir_fixed_link/S3_non_cross_ftp/birth_cohorts.csv",
+      "sha256": "735cab7e02e563a612f81189d8ac82c23b4e9fe30475cfab87ffc9bcdb084465",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/analysis/cohort_cache/S3_non_cross_ftp_dqn_ir_fixed_link_44.csv",
+      "source_sha256": "735cab7e02e563a612f81189d8ac82c23b4e9fe30475cfab87ffc9bcdb084465"
+    },
+    {
+      "path": "data/burst/checkpoint44_traffic404/dqn_ir_fixed_link/S3_non_cross_ftp/slot_metrics_FORMAL.csv",
+      "sha256": "7a8c15dfc9a0a930069cd455e3e73a677aab77d21365277478b2e5d6b2dedd4e",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint44_traffic404/dqn_ir_fixed_link/S3_non_cross_ftp/slot_metrics_FORMAL.csv",
+      "source_sha256": "7a8c15dfc9a0a930069cd455e3e73a677aab77d21365277478b2e5d6b2dedd4e"
+    },
+    {
+      "path": "data/burst/checkpoint44_traffic404/dqn_ir_fixed_link/S3_non_cross_ftp/summary_FORMAL.json",
+      "sha256": "767af9f6d6307435ad2cff0f7293a4091b2f08efbdb20926bed8b2b8a06d6b63",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint44_traffic404/dqn_ir_fixed_link/S3_non_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "fe99689eb73966cb309389b4fa0eabe466b5444950d404155e306661ee883572"
+    },
+    {
+      "path": "data/burst/checkpoint44_traffic404/dqn_ir_fixed_link/S4_cross_ftp/birth_cohorts.csv",
+      "sha256": "6cace14406cd72d582c00790d6f02a6c6a3d417def38615f6eb45267a286215c",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/analysis/cohort_cache/S4_cross_ftp_dqn_ir_fixed_link_44.csv",
+      "source_sha256": "6cace14406cd72d582c00790d6f02a6c6a3d417def38615f6eb45267a286215c"
+    },
+    {
+      "path": "data/burst/checkpoint44_traffic404/dqn_ir_fixed_link/S4_cross_ftp/slot_metrics_FORMAL.csv",
+      "sha256": "a2071e480f7243da93ec4bf306bb130088ea112b40f7a1def5a54f24323901af",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint44_traffic404/dqn_ir_fixed_link/S4_cross_ftp/slot_metrics_FORMAL.csv",
+      "source_sha256": "a2071e480f7243da93ec4bf306bb130088ea112b40f7a1def5a54f24323901af"
+    },
+    {
+      "path": "data/burst/checkpoint44_traffic404/dqn_ir_fixed_link/S4_cross_ftp/summary_FORMAL.json",
+      "sha256": "8a8f82fdb8e55bae697ea19fb1c007a8e3b870a62dbc4470653fce8b664d9cb0",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint44_traffic404/dqn_ir_fixed_link/S4_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "5e2deff782b7215d9150275c071786d71b8defe43f2e59dc531fc1edf599ab89"
+    },
+    {
+      "path": "data/burst/checkpoint44_traffic404/fdr_marl_adapted/S3_non_cross_ftp/birth_cohorts.csv",
+      "sha256": "ced461907241024800c363d83bd2b71d81dc176b04a208baf54c1a009d40bfde",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/analysis/cohort_cache/S3_non_cross_ftp_fdr_marl_adapted_44.csv",
+      "source_sha256": "ced461907241024800c363d83bd2b71d81dc176b04a208baf54c1a009d40bfde"
+    },
+    {
+      "path": "data/burst/checkpoint44_traffic404/fdr_marl_adapted/S3_non_cross_ftp/slot_metrics_FORMAL.csv",
+      "sha256": "fd0e6ae176e74d2409da3bddd282716713450bdf5ad201258fc33ef554b8c467",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint44_traffic404/fdr_marl_adapted/S3_non_cross_ftp/slot_metrics_FORMAL.csv",
+      "source_sha256": "fd0e6ae176e74d2409da3bddd282716713450bdf5ad201258fc33ef554b8c467"
+    },
+    {
+      "path": "data/burst/checkpoint44_traffic404/fdr_marl_adapted/S3_non_cross_ftp/summary_FORMAL.json",
+      "sha256": "a44e815bee7c4ec59308982dd0447698b8083fc0c96ed409f9f8cae7e8432ba5",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint44_traffic404/fdr_marl_adapted/S3_non_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "f17d0e70d020c2e4c65728b12274299191ad43cba8cc6756a5965efcf41009a2"
+    },
+    {
+      "path": "data/burst/checkpoint44_traffic404/fdr_marl_adapted/S4_cross_ftp/birth_cohorts.csv",
+      "sha256": "5929313c052b2f80c91663802de16a3388594f1c491de8a330f75770a4e52ea3",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/analysis/cohort_cache/S4_cross_ftp_fdr_marl_adapted_44.csv",
+      "source_sha256": "5929313c052b2f80c91663802de16a3388594f1c491de8a330f75770a4e52ea3"
+    },
+    {
+      "path": "data/burst/checkpoint44_traffic404/fdr_marl_adapted/S4_cross_ftp/slot_metrics_FORMAL.csv",
+      "sha256": "12a7d0998ffdda91265149b091b57100d5befa53925ab0ad621ed054bc64022f",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint44_traffic404/fdr_marl_adapted/S4_cross_ftp/slot_metrics_FORMAL.csv",
+      "source_sha256": "12a7d0998ffdda91265149b091b57100d5befa53925ab0ad621ed054bc64022f"
+    },
+    {
+      "path": "data/burst/checkpoint44_traffic404/fdr_marl_adapted/S4_cross_ftp/summary_FORMAL.json",
+      "sha256": "b0af18574946c8ea9d668da4b8176a0dfa56c3f3fd46cdba861fdec79e0ec456",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint44_traffic404/fdr_marl_adapted/S4_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "17768f4cb9782028d0b107ea25b271703b202f8a891f86924a09bdc2090df50d"
+    },
+    {
+      "path": "data/burst/checkpoint44_traffic404/graphpr_adapted/S3_non_cross_ftp/birth_cohorts.csv",
+      "sha256": "70c6ade887f5c0c7b807abc110d26ec808fee9c8128522249dce5d9002d854cc",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/analysis/cohort_cache/S3_non_cross_ftp_graphpr_adapted_44.csv",
+      "source_sha256": "70c6ade887f5c0c7b807abc110d26ec808fee9c8128522249dce5d9002d854cc"
+    },
+    {
+      "path": "data/burst/checkpoint44_traffic404/graphpr_adapted/S3_non_cross_ftp/slot_metrics_FORMAL.csv",
+      "sha256": "c14fec3268e5a461f66d44c94624fb0e691144e95cb9c38b70cb024d9daa16cd",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint44_traffic404/graphpr_adapted/S3_non_cross_ftp/slot_metrics_FORMAL.csv",
+      "source_sha256": "c14fec3268e5a461f66d44c94624fb0e691144e95cb9c38b70cb024d9daa16cd"
+    },
+    {
+      "path": "data/burst/checkpoint44_traffic404/graphpr_adapted/S3_non_cross_ftp/summary_FORMAL.json",
+      "sha256": "9435c9bb2d7e214c2d028546c2f3f45bea690580037cf919703f812709eb0316",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint44_traffic404/graphpr_adapted/S3_non_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "7dc55445fb698f62bb05ddc4de57f1d2d74c2ac1ecf1cb440ca02dcb4aa0c985"
+    },
+    {
+      "path": "data/burst/checkpoint44_traffic404/graphpr_adapted/S4_cross_ftp/birth_cohorts.csv",
+      "sha256": "91ae6f2a50e263cf7d2c7703ad2f745ebf6583420e6ae9c4cf6fd212c849fc8d",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/analysis/cohort_cache/S4_cross_ftp_graphpr_adapted_44.csv",
+      "source_sha256": "91ae6f2a50e263cf7d2c7703ad2f745ebf6583420e6ae9c4cf6fd212c849fc8d"
+    },
+    {
+      "path": "data/burst/checkpoint44_traffic404/graphpr_adapted/S4_cross_ftp/slot_metrics_FORMAL.csv",
+      "sha256": "b6776b77f4f13b5dc760f75b5337c189a5cd7d7895ff9b64aeffa61c5925c1e7",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint44_traffic404/graphpr_adapted/S4_cross_ftp/slot_metrics_FORMAL.csv",
+      "source_sha256": "b6776b77f4f13b5dc760f75b5337c189a5cd7d7895ff9b64aeffa61c5925c1e7"
+    },
+    {
+      "path": "data/burst/checkpoint44_traffic404/graphpr_adapted/S4_cross_ftp/summary_FORMAL.json",
+      "sha256": "637b62c9679823c234e61b2c2de3ebc3524c5d3ca01fe0c3c7a5d4c16636506a",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint44_traffic404/graphpr_adapted/S4_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "746f569ba3137317b78e7abc70cd96027dcb024d5dcf9b060c906211022956a8"
+    },
+    {
+      "path": "data/burst/checkpoint44_traffic404/proposed_gat_lstm_packet/S3_non_cross_ftp/birth_cohorts.csv",
+      "sha256": "8b87ceb3865bc1fdba71c8c695bc43e42a2aa9671fa0b813bd5ac15ae8589e6f",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/analysis/cohort_cache/S3_non_cross_ftp_proposed_gat_lstm_packet_44.csv",
+      "source_sha256": "8b87ceb3865bc1fdba71c8c695bc43e42a2aa9671fa0b813bd5ac15ae8589e6f"
+    },
+    {
+      "path": "data/burst/checkpoint44_traffic404/proposed_gat_lstm_packet/S3_non_cross_ftp/slot_metrics_FORMAL.csv",
+      "sha256": "b7bcde67a5d7f5a27300114f371d84feb4a455b64920ec67387dcb73fdad6e20",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint44_traffic404/proposed_gat_lstm_packet/S3_non_cross_ftp/slot_metrics_FORMAL.csv",
+      "source_sha256": "b7bcde67a5d7f5a27300114f371d84feb4a455b64920ec67387dcb73fdad6e20"
+    },
+    {
+      "path": "data/burst/checkpoint44_traffic404/proposed_gat_lstm_packet/S3_non_cross_ftp/summary_FORMAL.json",
+      "sha256": "9bc01072a14a3ab90e79cc44a9149e5372670b28d46e8529f2f464d513396780",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint44_traffic404/proposed_gat_lstm_packet/S3_non_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "3f1f01bfd9b9a407c429d80b692d1a40754ac5598d1d3c557c279b4ffd15d03b"
+    },
+    {
+      "path": "data/burst/checkpoint44_traffic404/proposed_gat_lstm_packet/S4_cross_ftp/birth_cohorts.csv",
+      "sha256": "43b45a8e344cfa68f5e3003a7fdd9642121e89c48afc75c0c8536794b0268884",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/analysis/cohort_cache/S4_cross_ftp_proposed_gat_lstm_packet_44.csv",
+      "source_sha256": "43b45a8e344cfa68f5e3003a7fdd9642121e89c48afc75c0c8536794b0268884"
+    },
+    {
+      "path": "data/burst/checkpoint44_traffic404/proposed_gat_lstm_packet/S4_cross_ftp/slot_metrics_FORMAL.csv",
+      "sha256": "f48bccc66a0ca4a1f1052cf2c5d6cabf4f009bfeef1e70b7f08f7f4c03b457fe",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint44_traffic404/proposed_gat_lstm_packet/S4_cross_ftp/slot_metrics_FORMAL.csv",
+      "source_sha256": "f48bccc66a0ca4a1f1052cf2c5d6cabf4f009bfeef1e70b7f08f7f4c03b457fe"
+    },
+    {
+      "path": "data/burst/checkpoint44_traffic404/proposed_gat_lstm_packet/S4_cross_ftp/summary_FORMAL.json",
+      "sha256": "08cfa88ac0d4ca6c30b4193fce8508a0a68ec7d810ba437981f5f224e25c062c",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint44_traffic404/proposed_gat_lstm_packet/S4_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "35b8f9cb4b42741d2e07be8d61ffe66cb34c9f6b0105a12c731b57802102bf37"
+    },
+    {
+      "path": "data/burst/checkpoint55_traffic505/dqn_ir_fixed_link/S3_non_cross_ftp/birth_cohorts.csv",
+      "sha256": "58ee7a727b6b986c327413f14bbf37fbb7930482b037883ce3b4dffd0362bbc0",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/analysis/cohort_cache/S3_non_cross_ftp_dqn_ir_fixed_link_55.csv",
+      "source_sha256": "58ee7a727b6b986c327413f14bbf37fbb7930482b037883ce3b4dffd0362bbc0"
+    },
+    {
+      "path": "data/burst/checkpoint55_traffic505/dqn_ir_fixed_link/S3_non_cross_ftp/slot_metrics_FORMAL.csv",
+      "sha256": "2d7b6824429f35c51230eda8dc1d74ba9112d4e44223d26df45be7ca37da277f",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint55_traffic505/dqn_ir_fixed_link/S3_non_cross_ftp/slot_metrics_FORMAL.csv",
+      "source_sha256": "2d7b6824429f35c51230eda8dc1d74ba9112d4e44223d26df45be7ca37da277f"
+    },
+    {
+      "path": "data/burst/checkpoint55_traffic505/dqn_ir_fixed_link/S3_non_cross_ftp/summary_FORMAL.json",
+      "sha256": "3307eee35f3bb11f060d67e22215833f8d2869e61bcc464d32b1f49673d8b146",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint55_traffic505/dqn_ir_fixed_link/S3_non_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "77ea7007a9386c4ba099ea389752efe0ca25711550f4fc107343f100e77becde"
+    },
+    {
+      "path": "data/burst/checkpoint55_traffic505/dqn_ir_fixed_link/S4_cross_ftp/birth_cohorts.csv",
+      "sha256": "163641bc6b4145eb3b634d8cf03faac056f5ea43abec14801fbdc570ad9e0c6f",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/analysis/cohort_cache/S4_cross_ftp_dqn_ir_fixed_link_55.csv",
+      "source_sha256": "163641bc6b4145eb3b634d8cf03faac056f5ea43abec14801fbdc570ad9e0c6f"
+    },
+    {
+      "path": "data/burst/checkpoint55_traffic505/dqn_ir_fixed_link/S4_cross_ftp/slot_metrics_FORMAL.csv",
+      "sha256": "78e89ffe2eb6208c3ac9a3829cd500b698e51a67e2aeac3a83354bb7de54bf5e",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint55_traffic505/dqn_ir_fixed_link/S4_cross_ftp/slot_metrics_FORMAL.csv",
+      "source_sha256": "78e89ffe2eb6208c3ac9a3829cd500b698e51a67e2aeac3a83354bb7de54bf5e"
+    },
+    {
+      "path": "data/burst/checkpoint55_traffic505/dqn_ir_fixed_link/S4_cross_ftp/summary_FORMAL.json",
+      "sha256": "486c59b8cb849de89c200218978e3d15e91e4ab889d477681f1b073a4046b5ba",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint55_traffic505/dqn_ir_fixed_link/S4_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "d5f799aed5311f4b6ebc3413693b412b0729d57cd4ed2dabfd44070ca9e9f9e7"
+    },
+    {
+      "path": "data/burst/checkpoint55_traffic505/fdr_marl_adapted/S3_non_cross_ftp/birth_cohorts.csv",
+      "sha256": "6a3c04cd84c52325ce63a75f164becd3baf25a0f2a620615bba1087e214ed389",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/analysis/cohort_cache/S3_non_cross_ftp_fdr_marl_adapted_55.csv",
+      "source_sha256": "6a3c04cd84c52325ce63a75f164becd3baf25a0f2a620615bba1087e214ed389"
+    },
+    {
+      "path": "data/burst/checkpoint55_traffic505/fdr_marl_adapted/S3_non_cross_ftp/slot_metrics_FORMAL.csv",
+      "sha256": "a918a849dbd00ca156145e98222ee5498391eb68453daee7d94516207b4cf7b9",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint55_traffic505/fdr_marl_adapted/S3_non_cross_ftp/slot_metrics_FORMAL.csv",
+      "source_sha256": "a918a849dbd00ca156145e98222ee5498391eb68453daee7d94516207b4cf7b9"
+    },
+    {
+      "path": "data/burst/checkpoint55_traffic505/fdr_marl_adapted/S3_non_cross_ftp/summary_FORMAL.json",
+      "sha256": "96e0714dde5ab4d64bb030aa44d55c7280b374a4008f28e88834f40923e89d24",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint55_traffic505/fdr_marl_adapted/S3_non_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "cbb5c864c9e57549e1ff9b37cb23704d9ea920ac2ec8f4eca5449cfa2f166212"
+    },
+    {
+      "path": "data/burst/checkpoint55_traffic505/fdr_marl_adapted/S4_cross_ftp/birth_cohorts.csv",
+      "sha256": "be3386960bc94e1bb512341f56ea43d233b75a70cd87b5b56a785eb7058b8afa",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/analysis/cohort_cache/S4_cross_ftp_fdr_marl_adapted_55.csv",
+      "source_sha256": "be3386960bc94e1bb512341f56ea43d233b75a70cd87b5b56a785eb7058b8afa"
+    },
+    {
+      "path": "data/burst/checkpoint55_traffic505/fdr_marl_adapted/S4_cross_ftp/slot_metrics_FORMAL.csv",
+      "sha256": "4b0256b329fcd7f7f5b898290c8f20f7584e970fb2b2706bd66599291afb088d",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint55_traffic505/fdr_marl_adapted/S4_cross_ftp/slot_metrics_FORMAL.csv",
+      "source_sha256": "4b0256b329fcd7f7f5b898290c8f20f7584e970fb2b2706bd66599291afb088d"
+    },
+    {
+      "path": "data/burst/checkpoint55_traffic505/fdr_marl_adapted/S4_cross_ftp/summary_FORMAL.json",
+      "sha256": "4306a9a082322e4266b613e2140c944a5dc697f90961b96dbda751576a7c9864",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint55_traffic505/fdr_marl_adapted/S4_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "6dc18a527d9b8eb0d43652455f7e2a9760772a91609fb500f73c8a1a6a036d9e"
+    },
+    {
+      "path": "data/burst/checkpoint55_traffic505/graphpr_adapted/S3_non_cross_ftp/birth_cohorts.csv",
+      "sha256": "c104ef14e7ddb28c28d3d69b837c7f7dc7af8021bf64873927898708400926c2",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/analysis/cohort_cache/S3_non_cross_ftp_graphpr_adapted_55.csv",
+      "source_sha256": "c104ef14e7ddb28c28d3d69b837c7f7dc7af8021bf64873927898708400926c2"
+    },
+    {
+      "path": "data/burst/checkpoint55_traffic505/graphpr_adapted/S3_non_cross_ftp/slot_metrics_FORMAL.csv",
+      "sha256": "07ff96f11dec1a0a85e220794089ed1125319415086cd6bda92582d786ce7557",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint55_traffic505/graphpr_adapted/S3_non_cross_ftp/slot_metrics_FORMAL.csv",
+      "source_sha256": "07ff96f11dec1a0a85e220794089ed1125319415086cd6bda92582d786ce7557"
+    },
+    {
+      "path": "data/burst/checkpoint55_traffic505/graphpr_adapted/S3_non_cross_ftp/summary_FORMAL.json",
+      "sha256": "0d69f2eea81e94fd93627a87308a404efa24f227c889e15f0049a62e90675fc5",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint55_traffic505/graphpr_adapted/S3_non_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "29fa1f65b5afa1e4e3c095ca010fad8a884ac684e11ce62e7fa246819ca04450"
+    },
+    {
+      "path": "data/burst/checkpoint55_traffic505/graphpr_adapted/S4_cross_ftp/birth_cohorts.csv",
+      "sha256": "c3333b5d1911c9290bfe994e7fd57379b850f25d451dd2b1b3b384cb8dd7e653",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/analysis/cohort_cache/S4_cross_ftp_graphpr_adapted_55.csv",
+      "source_sha256": "c3333b5d1911c9290bfe994e7fd57379b850f25d451dd2b1b3b384cb8dd7e653"
+    },
+    {
+      "path": "data/burst/checkpoint55_traffic505/graphpr_adapted/S4_cross_ftp/slot_metrics_FORMAL.csv",
+      "sha256": "6da14839f348922a7886cbd63917b78910941d9bba76915413288486c1602cd8",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint55_traffic505/graphpr_adapted/S4_cross_ftp/slot_metrics_FORMAL.csv",
+      "source_sha256": "6da14839f348922a7886cbd63917b78910941d9bba76915413288486c1602cd8"
+    },
+    {
+      "path": "data/burst/checkpoint55_traffic505/graphpr_adapted/S4_cross_ftp/summary_FORMAL.json",
+      "sha256": "81d0be36708bcf24f555520acdd05eff29cdd12206e3caa52718026aca3ea100",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint55_traffic505/graphpr_adapted/S4_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "f1d3e90d42e7171cb63175dd48adc8995c921934929617b245515783a8a8a23d"
+    },
+    {
+      "path": "data/burst/checkpoint55_traffic505/proposed_gat_lstm_packet/S3_non_cross_ftp/birth_cohorts.csv",
+      "sha256": "eff767fc33d7de13791b47d6e586199d35a57034945eadf8fadfee13e6e1ddec",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/analysis/cohort_cache/S3_non_cross_ftp_proposed_gat_lstm_packet_55.csv",
+      "source_sha256": "eff767fc33d7de13791b47d6e586199d35a57034945eadf8fadfee13e6e1ddec"
+    },
+    {
+      "path": "data/burst/checkpoint55_traffic505/proposed_gat_lstm_packet/S3_non_cross_ftp/slot_metrics_FORMAL.csv",
+      "sha256": "023ff6aeb0c388be56cd3e76c52d58df0fce7c3ed2121c2e1e55252e7fe65b9b",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint55_traffic505/proposed_gat_lstm_packet/S3_non_cross_ftp/slot_metrics_FORMAL.csv",
+      "source_sha256": "023ff6aeb0c388be56cd3e76c52d58df0fce7c3ed2121c2e1e55252e7fe65b9b"
+    },
+    {
+      "path": "data/burst/checkpoint55_traffic505/proposed_gat_lstm_packet/S3_non_cross_ftp/summary_FORMAL.json",
+      "sha256": "69d2feca14af78f592069f73650a3b8718a641c5577e7404933b19093e3a36ff",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint55_traffic505/proposed_gat_lstm_packet/S3_non_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "11acbc536bbb091a210eafc3819ad0d7ac7e8fb40c3cf0511f2ae4b9612af10b"
+    },
+    {
+      "path": "data/burst/checkpoint55_traffic505/proposed_gat_lstm_packet/S4_cross_ftp/birth_cohorts.csv",
+      "sha256": "b33add854a779a33319b9ec541f1fc510d5867108f525fce9467cbef75acda99",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/analysis/cohort_cache/S4_cross_ftp_proposed_gat_lstm_packet_55.csv",
+      "source_sha256": "b33add854a779a33319b9ec541f1fc510d5867108f525fce9467cbef75acda99"
+    },
+    {
+      "path": "data/burst/checkpoint55_traffic505/proposed_gat_lstm_packet/S4_cross_ftp/slot_metrics_FORMAL.csv",
+      "sha256": "e487d059f27aae3acde8191d008eccd10d151609f8cfd67263d4bb3a24a8f8b0",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint55_traffic505/proposed_gat_lstm_packet/S4_cross_ftp/slot_metrics_FORMAL.csv",
+      "source_sha256": "e487d059f27aae3acde8191d008eccd10d151609f8cfd67263d4bb3a24a8f8b0"
+    },
+    {
+      "path": "data/burst/checkpoint55_traffic505/proposed_gat_lstm_packet/S4_cross_ftp/summary_FORMAL.json",
+      "sha256": "244b605b582c4a8944a9dc566dd921e9752fdc782ae0fd3cf5470758b930fbc9",
+      "source": "outputs/teacher_revision_20261023/burst30s_gpu_parallel/combined/checkpoint55_traffic505/proposed_gat_lstm_packet/S4_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "d6da2069f568d78553a75a7563e90d8b7f009448b3a0e98cd956301f2760e2d9"
+    },
+    {
+      "path": "data/main/FORMAL_COMPLETE.ok",
+      "sha256": "ea23ec995a6f315f3a72e049d56670f1c7b2938c641c69f9947b98aaa4c9c5a9",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/FORMAL_COMPLETE.ok",
+      "source_sha256": "ea23ec995a6f315f3a72e049d56670f1c7b2938c641c69f9947b98aaa4c9c5a9"
+    },
+    {
+      "path": "data/main/packet_audit_FORMAL.json",
+      "sha256": "d267b2f12bc94af40c815fcf98d0598e11f2baccd6f73c642fcad297c01a99cb",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/packet_audit_FORMAL.json",
+      "source_sha256": "d267b2f12bc94af40c815fcf98d0598e11f2baccd6f73c642fcad297c01a99cb"
+    },
+    {
+      "path": "data/main/summary_FORMAL.csv",
+      "sha256": "8b46cf86fe15bf62b8edc3815275a5cf183659efa599195adab6b2b2bb2bbb34",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/summary_FORMAL.csv",
+      "source_sha256": "e0099e040ec188e1639ac8fa9c957a95d081c4233a8e9adc3597c493636b796d"
+    },
+    {
+      "path": "data/main/checkpoint11_traffic101/trace_manifest.json",
+      "sha256": "953cf7b067cf209cd8eec244b7c16e66378a6bf3b47cf9959ca3f7e19e9dfa76",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint11_traffic101/trace_manifest.json",
+      "source_sha256": "953cf7b067cf209cd8eec244b7c16e66378a6bf3b47cf9959ca3f7e19e9dfa76"
+    },
+    {
+      "path": "data/main/checkpoint11_traffic101/dqn_ir_fixed_link/S1_non_cross_normal/summary_FORMAL.json",
+      "sha256": "b84713f7aa5e58ba0cd15f4e30d9a550c0549b4c5f9760a2a8b9e592f610112c",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint11_traffic101/dqn_ir_fixed_link/S1_non_cross_normal/summary_FORMAL.json",
+      "source_sha256": "c833ac3f98dc0f919cc8740bf8675db18e15c97d68dacb60a1b40d441163928d"
+    },
+    {
+      "path": "data/main/checkpoint11_traffic101/dqn_ir_fixed_link/S2_cross_normal/summary_FORMAL.json",
+      "sha256": "373e0d0eea99a0d5dc673a4d1b3d6859d7cf0bf84b43c723fae6ee66f5eca78f",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint11_traffic101/dqn_ir_fixed_link/S2_cross_normal/summary_FORMAL.json",
+      "source_sha256": "76d5bb56be36140189466b443ae173594322c3a817a0c04f828c146d8063ea2b"
+    },
+    {
+      "path": "data/main/checkpoint11_traffic101/dqn_ir_fixed_link/S3_non_cross_ftp/summary_FORMAL.json",
+      "sha256": "7604755a4713643280721e60e548158c56d49708de50318c1891109d396c472b",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint11_traffic101/dqn_ir_fixed_link/S3_non_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "73bee285f3f30cfd38f594815471810f32fd8fba5534f3220fba8bb79e416704"
+    },
+    {
+      "path": "data/main/checkpoint11_traffic101/dqn_ir_fixed_link/S4_cross_ftp/summary_FORMAL.json",
+      "sha256": "561fa12b498fcf78f027c4a9dd479f599e518e5c25a653fc02565f2f071ec3f4",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint11_traffic101/dqn_ir_fixed_link/S4_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "7b792436b4b2a6e1ea5e9f6f52e43b790c319249aea3cfa5640f559aee371637"
+    },
+    {
+      "path": "data/main/checkpoint11_traffic101/fdr_marl_adapted/S1_non_cross_normal/summary_FORMAL.json",
+      "sha256": "195128a32cf4579ddafc6b25bb1a7398f59c92b2a79727dedf6e7ea1dd833886",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint11_traffic101/fdr_marl_adapted/S1_non_cross_normal/summary_FORMAL.json",
+      "source_sha256": "3587ce8983bbc5e97e6217f5d1c70244d9d79245a414468f3ac82c7d44034244"
+    },
+    {
+      "path": "data/main/checkpoint11_traffic101/fdr_marl_adapted/S2_cross_normal/summary_FORMAL.json",
+      "sha256": "1e61b037b3b0a21f11c0f90ee0cfb46d88294673ccd0b840c9f7d2ca001b2a92",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint11_traffic101/fdr_marl_adapted/S2_cross_normal/summary_FORMAL.json",
+      "source_sha256": "48eb7a9f657e30770d7d3f3e0856f2471b109f88ae74d0db6deda9167b17315e"
+    },
+    {
+      "path": "data/main/checkpoint11_traffic101/fdr_marl_adapted/S3_non_cross_ftp/summary_FORMAL.json",
+      "sha256": "d5eabe2eca89872244641ff50b9a80de0301a7af8ea4c31a1e28954906d149a5",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint11_traffic101/fdr_marl_adapted/S3_non_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "e8fb60691744c262a71199e94219bda2ff79116c2b58582e58bdb82e33682b8f"
+    },
+    {
+      "path": "data/main/checkpoint11_traffic101/fdr_marl_adapted/S4_cross_ftp/summary_FORMAL.json",
+      "sha256": "4ed1c893edb74e6c5c834083747a4e54d262a9b994db1e165fc275b2bbd55729",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint11_traffic101/fdr_marl_adapted/S4_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "3e974eeef1b0d2e8e7e88f0b6f49b9a94aec851cc75da9c96e22a76c3dc17ec0"
+    },
+    {
+      "path": "data/main/checkpoint11_traffic101/graphpr_adapted/S1_non_cross_normal/summary_FORMAL.json",
+      "sha256": "c4796fb2c9c872484fcf9e9ef290899e985d092da149f7aba882aa94c7cda4c6",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint11_traffic101/graphpr_adapted/S1_non_cross_normal/summary_FORMAL.json",
+      "source_sha256": "e31f244df3aa3577612225cef466cf00fb7ff8aeb8f7627f5013aff3a486c956"
+    },
+    {
+      "path": "data/main/checkpoint11_traffic101/graphpr_adapted/S2_cross_normal/summary_FORMAL.json",
+      "sha256": "1ae6196128e463087008e07695df1bc6ed1bb860bd48a6774b30f4d1ee3db8f6",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint11_traffic101/graphpr_adapted/S2_cross_normal/summary_FORMAL.json",
+      "source_sha256": "f665cfb0a087be4096e3dac1ae87a1033a55ed5a1ac3352196281e72ec7c38e4"
+    },
+    {
+      "path": "data/main/checkpoint11_traffic101/graphpr_adapted/S3_non_cross_ftp/summary_FORMAL.json",
+      "sha256": "e7ebb7e5ac9be728fd8919732d8903073028be8950bcdf1c49512ce18dc6c4b2",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint11_traffic101/graphpr_adapted/S3_non_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "3eab6cfcd3b8b4f2ab5b533c4ce826b6622d0cca4f25ebbe63f6403020d5a2c0"
+    },
+    {
+      "path": "data/main/checkpoint11_traffic101/graphpr_adapted/S4_cross_ftp/summary_FORMAL.json",
+      "sha256": "b83563a756c71ae8040eb35bc52e014f277c8d4fd4b16f7bca4fda6881f2e286",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint11_traffic101/graphpr_adapted/S4_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "ebaf56beb6bed932e377746b208267ea352c215b8714bb6d9f1de0dc0782a18f"
+    },
+    {
+      "path": "data/main/checkpoint11_traffic101/proposed_gat_lstm_packet/S1_non_cross_normal/summary_FORMAL.json",
+      "sha256": "01293c72d630d5ca16d1dc5e4d3b7a4c9d7f046c553622cc7882fdb2c91b6980",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint11_traffic101/proposed_gat_lstm_packet/S1_non_cross_normal/summary_FORMAL.json",
+      "source_sha256": "84fcf02cc930fe7fdf368298f99ec2e252d8aa1d77dc5c704e7ad0bae5103d12"
+    },
+    {
+      "path": "data/main/checkpoint11_traffic101/proposed_gat_lstm_packet/S2_cross_normal/summary_FORMAL.json",
+      "sha256": "1855bf95b6f7b6d3959e59930678829fdc48d3a1f7583f7788fbd2282ec6f3ed",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint11_traffic101/proposed_gat_lstm_packet/S2_cross_normal/summary_FORMAL.json",
+      "source_sha256": "4af7f120020edced4ae91054b6644c7c079ca8be96cfab454322f73d43f73955"
+    },
+    {
+      "path": "data/main/checkpoint11_traffic101/proposed_gat_lstm_packet/S3_non_cross_ftp/summary_FORMAL.json",
+      "sha256": "bee61ea558de16373676e602f4e65c3f40a68fc999d4950b7799000a173f4f6d",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint11_traffic101/proposed_gat_lstm_packet/S3_non_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "f315d1b7d88a2daddbfe2816bb3b59794a462e5ea79bd914a9f4afb3bd0662c7"
+    },
+    {
+      "path": "data/main/checkpoint11_traffic101/proposed_gat_lstm_packet/S4_cross_ftp/summary_FORMAL.json",
+      "sha256": "73b7fad2d9e04d83346d8f2f515be4922d23ca1c09aa2aa5de148feae9fefcad",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint11_traffic101/proposed_gat_lstm_packet/S4_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "954722f43f05a2aa1c8da49ffe7f3cd43529bf27123bef3d9ab486a7372912db"
+    },
+    {
+      "path": "data/main/checkpoint22_traffic202/trace_manifest.json",
+      "sha256": "d98a94a28c0a693113126c65436fcab478311f13dc6f6e3d6194aec963dc96dd",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint22_traffic202/trace_manifest.json",
+      "source_sha256": "d98a94a28c0a693113126c65436fcab478311f13dc6f6e3d6194aec963dc96dd"
+    },
+    {
+      "path": "data/main/checkpoint22_traffic202/dqn_ir_fixed_link/S1_non_cross_normal/summary_FORMAL.json",
+      "sha256": "589f6a209d223446c019fc416be941cadb007a5b0ca5a9cff6e563310067cbf8",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint22_traffic202/dqn_ir_fixed_link/S1_non_cross_normal/summary_FORMAL.json",
+      "source_sha256": "bf54d2c8145395aee355b2596f0912d718ec54cfa791496601929b1af8aa87a5"
+    },
+    {
+      "path": "data/main/checkpoint22_traffic202/dqn_ir_fixed_link/S2_cross_normal/summary_FORMAL.json",
+      "sha256": "b535e9b6766f5c856e8663323a50ded03b5f08aba0112bf74689fd31ed58969d",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint22_traffic202/dqn_ir_fixed_link/S2_cross_normal/summary_FORMAL.json",
+      "source_sha256": "eb6d78b22df879545325b84281b107e6a6453c3261b624a512b80e44a4adef47"
+    },
+    {
+      "path": "data/main/checkpoint22_traffic202/dqn_ir_fixed_link/S3_non_cross_ftp/summary_FORMAL.json",
+      "sha256": "2d34eef7624e4e2091fb0185d6bb6f5138bb072b9d7f4a082795dddbebef91e9",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint22_traffic202/dqn_ir_fixed_link/S3_non_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "11b5b918b392f7aade92b9c5ae4d1b8d8d1834c290a0dd58e6bb2b1ad3fa6849"
+    },
+    {
+      "path": "data/main/checkpoint22_traffic202/dqn_ir_fixed_link/S4_cross_ftp/summary_FORMAL.json",
+      "sha256": "500fde7bc394ac734cf0ba902d6fce546fa99712f06404a51f0bcb756629fca7",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint22_traffic202/dqn_ir_fixed_link/S4_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "a894f98cd139e1945d8ce7f0a76fd3d7f832f3f1c18c3f21b54dcb53bb6e7cc6"
+    },
+    {
+      "path": "data/main/checkpoint22_traffic202/fdr_marl_adapted/S1_non_cross_normal/summary_FORMAL.json",
+      "sha256": "3c095b29c6080a564e4e3bd9ad4b834569153b2933bb1492d3ac923f648ac04c",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint22_traffic202/fdr_marl_adapted/S1_non_cross_normal/summary_FORMAL.json",
+      "source_sha256": "6e6b72e895f6c50729d7525083a2df1923743f17f3dd48d4460eb60f04e5c9e1"
+    },
+    {
+      "path": "data/main/checkpoint22_traffic202/fdr_marl_adapted/S2_cross_normal/summary_FORMAL.json",
+      "sha256": "cf542e3695087c9abe193020a8cdbc862e7277dc3ef632c554eb063de674d9c8",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint22_traffic202/fdr_marl_adapted/S2_cross_normal/summary_FORMAL.json",
+      "source_sha256": "c2e58eea7ad66c3df4f55b2b9329f4b97d891af216ad1155c258914944c37232"
+    },
+    {
+      "path": "data/main/checkpoint22_traffic202/fdr_marl_adapted/S3_non_cross_ftp/summary_FORMAL.json",
+      "sha256": "6eb301fff4e4595292bafdd9095935e6b812adee8790ec9acc4f89303896d179",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint22_traffic202/fdr_marl_adapted/S3_non_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "919dc22948cf6f0ca2c618900199812854a59160d6c955ebc6c190f4e42aeb92"
+    },
+    {
+      "path": "data/main/checkpoint22_traffic202/fdr_marl_adapted/S4_cross_ftp/summary_FORMAL.json",
+      "sha256": "f937fc52d48e2f848c0eab0987e156b9416ab6606e7a880a8f2953105d63137c",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint22_traffic202/fdr_marl_adapted/S4_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "4bd3894777096b69e2d5dcc18d6307458e73bdbe3ea87a453f1608530ce5e1f7"
+    },
+    {
+      "path": "data/main/checkpoint22_traffic202/graphpr_adapted/S1_non_cross_normal/summary_FORMAL.json",
+      "sha256": "d403b5cf0d4472865cb3f53e86418d95656451dbf63f67a39699ccaa46b4bab7",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint22_traffic202/graphpr_adapted/S1_non_cross_normal/summary_FORMAL.json",
+      "source_sha256": "37cb1affceecdbab23b8d922fd1a762df87f159141e4fcff6c105076d9ffb5b5"
+    },
+    {
+      "path": "data/main/checkpoint22_traffic202/graphpr_adapted/S2_cross_normal/summary_FORMAL.json",
+      "sha256": "08cc78c022612aa4f997cf99ae2c660918266308b9c69f139e4b375e64f37a33",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint22_traffic202/graphpr_adapted/S2_cross_normal/summary_FORMAL.json",
+      "source_sha256": "f91450ce9a09d1fd11ee66e2d3c2ba3aa7ddc55bb3066fcfc8b5be707e728fbe"
+    },
+    {
+      "path": "data/main/checkpoint22_traffic202/graphpr_adapted/S3_non_cross_ftp/summary_FORMAL.json",
+      "sha256": "6b2faee3049dc7abaa5141c1b1a29273b7749720c0e9a1f0ac8b8a25e146944c",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint22_traffic202/graphpr_adapted/S3_non_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "35029e5c3104498588185bd4ba0445759ba06a561452906f859bce8766057e38"
+    },
+    {
+      "path": "data/main/checkpoint22_traffic202/graphpr_adapted/S4_cross_ftp/summary_FORMAL.json",
+      "sha256": "c56e7884913d0475c7e46a8b600799bc938565dbb5c1b5a490f8f486896b4557",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint22_traffic202/graphpr_adapted/S4_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "9425b7d88ed70f360b70fff036713b62b1b7797f7ed37f5fa96555bb35f7da3a"
+    },
+    {
+      "path": "data/main/checkpoint22_traffic202/proposed_gat_lstm_packet/S1_non_cross_normal/summary_FORMAL.json",
+      "sha256": "aaee1998645ee8a92e189c0f6125f0c5af8b0aa84b6318cf33ab41ebcd26714a",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint22_traffic202/proposed_gat_lstm_packet/S1_non_cross_normal/summary_FORMAL.json",
+      "source_sha256": "11cc1a692f831fdec765369a362e2c25f5b2478927b42fa49e5d04d04013b7fb"
+    },
+    {
+      "path": "data/main/checkpoint22_traffic202/proposed_gat_lstm_packet/S2_cross_normal/summary_FORMAL.json",
+      "sha256": "30945bfe3c352322cd718ee39633ca3e11270ea9f74c5730b364247c8efb41d8",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint22_traffic202/proposed_gat_lstm_packet/S2_cross_normal/summary_FORMAL.json",
+      "source_sha256": "b66166ecbf096ab742cc9319b9b2bec66fb41808dd79cd439589831521eb5496"
+    },
+    {
+      "path": "data/main/checkpoint22_traffic202/proposed_gat_lstm_packet/S3_non_cross_ftp/summary_FORMAL.json",
+      "sha256": "c5993b3be6b37fb1bfa89021302402cb4ffc1a0df16c0dd7eec0544da53d1c34",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint22_traffic202/proposed_gat_lstm_packet/S3_non_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "42c84e15d16ec7c100815c1092f9f2b88eeb5cca57e5bb2cfffc0f38fbdf7a03"
+    },
+    {
+      "path": "data/main/checkpoint22_traffic202/proposed_gat_lstm_packet/S4_cross_ftp/summary_FORMAL.json",
+      "sha256": "83eac5fd346c87a2e60a5e33ff56f241d764f502ed8e3bfcbd64f5fc1d5ae7c5",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint22_traffic202/proposed_gat_lstm_packet/S4_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "53ebf82676d73024c2c9ffe14ae496f3e0eaaf12a24eabab524c394f6f1ca40e"
+    },
+    {
+      "path": "data/main/checkpoint33_traffic303/trace_manifest.json",
+      "sha256": "c57dd27fbbab7f00a07c8956a78e0a1bc5882884c77047381d925849a2784219",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint33_traffic303/trace_manifest.json",
+      "source_sha256": "c57dd27fbbab7f00a07c8956a78e0a1bc5882884c77047381d925849a2784219"
+    },
+    {
+      "path": "data/main/checkpoint33_traffic303/dqn_ir_fixed_link/S1_non_cross_normal/summary_FORMAL.json",
+      "sha256": "c3fd575b1d16aec7423e3d09138bbdb74520a66619586c92f50de80334a3e12e",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint33_traffic303/dqn_ir_fixed_link/S1_non_cross_normal/summary_FORMAL.json",
+      "source_sha256": "f147b5cfc2082b2eac8eac9d7620c223f73ef91cdf27b6023062bcd447b5a5d7"
+    },
+    {
+      "path": "data/main/checkpoint33_traffic303/dqn_ir_fixed_link/S2_cross_normal/summary_FORMAL.json",
+      "sha256": "3ffa5cbaf638f88d6c72817ed0b3363b2437eab4faab8b4e6f57f18cd43b64d9",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint33_traffic303/dqn_ir_fixed_link/S2_cross_normal/summary_FORMAL.json",
+      "source_sha256": "412a89841b5befe1ec09efa3cac05b738d36f12f5e1c066431e39f67c18b6e4a"
+    },
+    {
+      "path": "data/main/checkpoint33_traffic303/dqn_ir_fixed_link/S3_non_cross_ftp/summary_FORMAL.json",
+      "sha256": "bbad8c8db5f925fed32debe20b2f023bb21774d1212ff151938191f48fd68eaf",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint33_traffic303/dqn_ir_fixed_link/S3_non_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "213f4fff679f5b4cd62ca27791bae21f050d5161123e9b3aa3c4c6983fe7020c"
+    },
+    {
+      "path": "data/main/checkpoint33_traffic303/dqn_ir_fixed_link/S4_cross_ftp/summary_FORMAL.json",
+      "sha256": "4e6e6fdec16ab3ba4983cd07ae1ecca82edbd955915b35b51b7c9eb989e0228c",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint33_traffic303/dqn_ir_fixed_link/S4_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "21bed0f1d5130a11d268e1e9154863a72d7b6045e9f44f7b890100244c8d3ef4"
+    },
+    {
+      "path": "data/main/checkpoint33_traffic303/fdr_marl_adapted/S1_non_cross_normal/summary_FORMAL.json",
+      "sha256": "89f0644820709e13e9579e7c20c5311992d719e6a6b0a5ca66cdc66530d83bba",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint33_traffic303/fdr_marl_adapted/S1_non_cross_normal/summary_FORMAL.json",
+      "source_sha256": "8468b1404b49b1f1a44ffcaabe96676c5ab7668de7c92e3881b097b4174c7ec9"
+    },
+    {
+      "path": "data/main/checkpoint33_traffic303/fdr_marl_adapted/S2_cross_normal/summary_FORMAL.json",
+      "sha256": "f5fb17a40133f635c75509745ca3e1ccf83dfec85b02a70b0fdd1efd9359ce0b",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint33_traffic303/fdr_marl_adapted/S2_cross_normal/summary_FORMAL.json",
+      "source_sha256": "993a109a2c1ea360fa3c9f1d6bdaa4ab25d18c521688ae27439cd590617a195a"
+    },
+    {
+      "path": "data/main/checkpoint33_traffic303/fdr_marl_adapted/S3_non_cross_ftp/summary_FORMAL.json",
+      "sha256": "3fb6f8ccb8ecddf18274171c44289f64677e4f0c0e10422cc7009b941b18875d",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint33_traffic303/fdr_marl_adapted/S3_non_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "9cbefa53c0653e6f3fb6247084c1105c0d4472d50c191b41642432c97a85b0c6"
+    },
+    {
+      "path": "data/main/checkpoint33_traffic303/fdr_marl_adapted/S4_cross_ftp/summary_FORMAL.json",
+      "sha256": "2ea6f3fbb4ec825fd398552db70895c3995529df9cc3e36c82e5015a922108df",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint33_traffic303/fdr_marl_adapted/S4_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "4b0bf5033f57eb17b26b1dcf06bfba47e332f6db763bbb5989fe119e62fdd949"
+    },
+    {
+      "path": "data/main/checkpoint33_traffic303/graphpr_adapted/S1_non_cross_normal/summary_FORMAL.json",
+      "sha256": "7790351d077ede2b98ee2b5d952be89c2cc93662aa61f043cdf8e1f5cd94eb8a",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint33_traffic303/graphpr_adapted/S1_non_cross_normal/summary_FORMAL.json",
+      "source_sha256": "94819c644ac63900cc040acdbfe8425bc79c93a564a7fdb840bf7ea51a6cd724"
+    },
+    {
+      "path": "data/main/checkpoint33_traffic303/graphpr_adapted/S2_cross_normal/summary_FORMAL.json",
+      "sha256": "2e9ce24d26368351d829b568ed4b63cbc5d8c33f975021a10e49ebe5de97ed72",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint33_traffic303/graphpr_adapted/S2_cross_normal/summary_FORMAL.json",
+      "source_sha256": "f7d02f2b5fb331ced1e0fa01cca99efb42faf940c66a4aad05aabee78ae8a0ff"
+    },
+    {
+      "path": "data/main/checkpoint33_traffic303/graphpr_adapted/S3_non_cross_ftp/summary_FORMAL.json",
+      "sha256": "14cb84e2dd269583adc9c1a40ede581e6809b09974840f843c75bba0b492af82",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint33_traffic303/graphpr_adapted/S3_non_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "87d265af4b9a38c1c50fc1199983c84e96e5ce928471728316784a696c81616c"
+    },
+    {
+      "path": "data/main/checkpoint33_traffic303/graphpr_adapted/S4_cross_ftp/summary_FORMAL.json",
+      "sha256": "7c0a1720b02ea05b6a99ada5c9ee6bc082538b87c457b5314a13ad1d6808fd7e",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint33_traffic303/graphpr_adapted/S4_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "17db64dd138e0a8aef54c6042a319ab5d86ae71ab5e631263f56d04ad733e87c"
+    },
+    {
+      "path": "data/main/checkpoint33_traffic303/proposed_gat_lstm_packet/S1_non_cross_normal/summary_FORMAL.json",
+      "sha256": "8d6969c2e37513b60a0b140288734097f1c2c9ff5e38fe7b7c84cc338b0d8746",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint33_traffic303/proposed_gat_lstm_packet/S1_non_cross_normal/summary_FORMAL.json",
+      "source_sha256": "9a17d102b5dcab03199902bc26b2da0c4f25a100f0bb03d22779e63a69333f6a"
+    },
+    {
+      "path": "data/main/checkpoint33_traffic303/proposed_gat_lstm_packet/S2_cross_normal/summary_FORMAL.json",
+      "sha256": "ba9dcc51497786af5d85cf6b7368e8788890dad1ad683ab1d7d75ec0fa13e8ef",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint33_traffic303/proposed_gat_lstm_packet/S2_cross_normal/summary_FORMAL.json",
+      "source_sha256": "5292f34f1d81f9094cb0bba04bb428f189623f08ad3fc8437f9d74124f0fee34"
+    },
+    {
+      "path": "data/main/checkpoint33_traffic303/proposed_gat_lstm_packet/S3_non_cross_ftp/summary_FORMAL.json",
+      "sha256": "b846b62a2fb6e246a67a6cdb11b89286fe5417c5227957b780fc160bdf04f532",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint33_traffic303/proposed_gat_lstm_packet/S3_non_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "cc543f8d04c063f0b5823938fbfb98fd190cb1824ae04d9a25d6d5dc7477937c"
+    },
+    {
+      "path": "data/main/checkpoint33_traffic303/proposed_gat_lstm_packet/S4_cross_ftp/summary_FORMAL.json",
+      "sha256": "6605a3a2c71175500ceb4384438462157b19547de334fb9abbfc40fee8de66df",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint33_traffic303/proposed_gat_lstm_packet/S4_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "831aa84947fd08ad4802fd0f4f8344049a3ad70b1059e82a2f5dc6384292d180"
+    },
+    {
+      "path": "data/main/checkpoint44_traffic404/trace_manifest.json",
+      "sha256": "15e467b921539ea5cbdd0dcc8531ac6279335ceaccecdf9f556c81d1b075417e",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint44_traffic404/trace_manifest.json",
+      "source_sha256": "15e467b921539ea5cbdd0dcc8531ac6279335ceaccecdf9f556c81d1b075417e"
+    },
+    {
+      "path": "data/main/checkpoint44_traffic404/dqn_ir_fixed_link/S1_non_cross_normal/summary_FORMAL.json",
+      "sha256": "8b6a1da8feda8a4290cf5866c794244bb0736f6369770da453935426e1699b9e",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint44_traffic404/dqn_ir_fixed_link/S1_non_cross_normal/summary_FORMAL.json",
+      "source_sha256": "70402745c71b5a55417aa791be88791868ebd02ade92de7e75db607a90c10bc1"
+    },
+    {
+      "path": "data/main/checkpoint44_traffic404/dqn_ir_fixed_link/S2_cross_normal/summary_FORMAL.json",
+      "sha256": "8257ba49b92d0e2ca0dba0c11327178b7bdd2f5b982bd6b04c081afd5b892c8c",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint44_traffic404/dqn_ir_fixed_link/S2_cross_normal/summary_FORMAL.json",
+      "source_sha256": "ae805a75e8f2ca14d47ce80e9f19a662f423f77671c882122a83ec8cdfc3e9e6"
+    },
+    {
+      "path": "data/main/checkpoint44_traffic404/dqn_ir_fixed_link/S3_non_cross_ftp/summary_FORMAL.json",
+      "sha256": "f8d5c8ba99287235ffc6a33ac63300c13a5b539766fedcc0cd4da8f6bee69fad",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint44_traffic404/dqn_ir_fixed_link/S3_non_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "a7666b26b8a208005c6137148a977da77949aa048db15385e403f42f0b250ca1"
+    },
+    {
+      "path": "data/main/checkpoint44_traffic404/dqn_ir_fixed_link/S4_cross_ftp/summary_FORMAL.json",
+      "sha256": "17ab2f53e640335b533d71fbfc8d5022a444b8d6034ba0c2158264f6cf6a566b",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint44_traffic404/dqn_ir_fixed_link/S4_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "a3bd9a8e0b548e908c192ec7b6492e33ea1de37e10b7b55d30238148da799aec"
+    },
+    {
+      "path": "data/main/checkpoint44_traffic404/fdr_marl_adapted/S1_non_cross_normal/summary_FORMAL.json",
+      "sha256": "bed1e0b9e73b86e31c9764b4cc1edf9db5b51616b5f7e3dbafae1094f15b3b73",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint44_traffic404/fdr_marl_adapted/S1_non_cross_normal/summary_FORMAL.json",
+      "source_sha256": "2cf366c572dad87ea9ae5a9476a72675333324260f9fc2081e977ea08a4bd738"
+    },
+    {
+      "path": "data/main/checkpoint44_traffic404/fdr_marl_adapted/S2_cross_normal/summary_FORMAL.json",
+      "sha256": "f22a6f2665e90c81afa1a9c33c7a56d10ef9bdf67c6ab91f6fa5145bcebc60ae",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint44_traffic404/fdr_marl_adapted/S2_cross_normal/summary_FORMAL.json",
+      "source_sha256": "a52cbc61c792b762c9dc5be350511e957092a3a09b47b31fcfcb97a3d0b055e7"
+    },
+    {
+      "path": "data/main/checkpoint44_traffic404/fdr_marl_adapted/S3_non_cross_ftp/summary_FORMAL.json",
+      "sha256": "3fe5bf0324ec30ad96ffcfc9ddc9e995ad1e713c29b36b30b6008b3aa2f7d2de",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint44_traffic404/fdr_marl_adapted/S3_non_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "4888addd244e62f35c0b8410d48519d1f678b2b55d0281cbb48303791f8e6482"
+    },
+    {
+      "path": "data/main/checkpoint44_traffic404/fdr_marl_adapted/S4_cross_ftp/summary_FORMAL.json",
+      "sha256": "0c33227372a05bdd98920f4720229dcbc4dbc2923ff1b9b100c7865a0c99c667",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint44_traffic404/fdr_marl_adapted/S4_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "f8ac8daf57747a1c5b29d6e3736dcb2e240fee107dec8991a8807605a4962367"
+    },
+    {
+      "path": "data/main/checkpoint44_traffic404/graphpr_adapted/S1_non_cross_normal/summary_FORMAL.json",
+      "sha256": "62ccca5cb03e9d01fc18cb99a4b447bccc0d7fb53157ce8f6746e9a9f4cbab23",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint44_traffic404/graphpr_adapted/S1_non_cross_normal/summary_FORMAL.json",
+      "source_sha256": "5fb6ba2abacf196e0e0a24a512936571ab4fa996fe5d3fa87a6d6ab4abab9f32"
+    },
+    {
+      "path": "data/main/checkpoint44_traffic404/graphpr_adapted/S2_cross_normal/summary_FORMAL.json",
+      "sha256": "9c8cfe593c9850a10c84a80f8e39a0dd8e6206abbe0aaadbf14521370dab9cdb",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint44_traffic404/graphpr_adapted/S2_cross_normal/summary_FORMAL.json",
+      "source_sha256": "b2705a5a8df378c50578674d32ff49ecb9c6082a028762e262bc35995673ce5a"
+    },
+    {
+      "path": "data/main/checkpoint44_traffic404/graphpr_adapted/S3_non_cross_ftp/summary_FORMAL.json",
+      "sha256": "c8a2487535b493c36abc54b6338fcb118387723d42b758b0f1402890dbe28861",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint44_traffic404/graphpr_adapted/S3_non_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "ce8c56fe21f9649bd215a7dcb9e257b763f72ba7b07a2eb361e45b1954dbdfdb"
+    },
+    {
+      "path": "data/main/checkpoint44_traffic404/graphpr_adapted/S4_cross_ftp/summary_FORMAL.json",
+      "sha256": "7b2108ecdf5bf812eddff4dd5a34f769da30bac24111845be14fb31bb1a669a1",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint44_traffic404/graphpr_adapted/S4_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "b0d8207fd127173d0c3ae1cb4e1186e65525b81aa6d5e24d6da11759067f63b6"
+    },
+    {
+      "path": "data/main/checkpoint44_traffic404/proposed_gat_lstm_packet/S1_non_cross_normal/summary_FORMAL.json",
+      "sha256": "4d029e3e0dc1c532f538020545caad10e32e221163006de71a13a1ad886d4dc0",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint44_traffic404/proposed_gat_lstm_packet/S1_non_cross_normal/summary_FORMAL.json",
+      "source_sha256": "2a6e05a6cdd314d2fef20d497477e74a35cb47aa528d5da9bac20962da337416"
+    },
+    {
+      "path": "data/main/checkpoint44_traffic404/proposed_gat_lstm_packet/S2_cross_normal/summary_FORMAL.json",
+      "sha256": "c59cfa545d7779c70bd1b914afe7d64e94ceb83c719a0ae8b8d0f8143040a636",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint44_traffic404/proposed_gat_lstm_packet/S2_cross_normal/summary_FORMAL.json",
+      "source_sha256": "d11cbf4e60efd554568c315d384e30c0698d2f8fdb58aee7bc1c0826491124fb"
+    },
+    {
+      "path": "data/main/checkpoint44_traffic404/proposed_gat_lstm_packet/S3_non_cross_ftp/summary_FORMAL.json",
+      "sha256": "78a1d94ab201ce4ab5436a82678c08307707c51bd25123aae585b6a33049cf89",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint44_traffic404/proposed_gat_lstm_packet/S3_non_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "ba9f5886ad5d2483b438a1d83a67b569bdadf0a00a32f6283c4918c0cdc93210"
+    },
+    {
+      "path": "data/main/checkpoint44_traffic404/proposed_gat_lstm_packet/S4_cross_ftp/summary_FORMAL.json",
+      "sha256": "03d98c35bed112c6bb3650bdd3fa6c6927d52d6dc3e63c1260da3cbdcbd7902a",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint44_traffic404/proposed_gat_lstm_packet/S4_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "bc4c9f3d733aad03cf39ac6b4bd592582797a74be9943161d61fbb71ab647095"
+    },
+    {
+      "path": "data/main/checkpoint55_traffic505/trace_manifest.json",
+      "sha256": "da4b154bb9010fb7cd16c88f5cc436bd38d6349e0089b8076ce7064014274c5b",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint55_traffic505/trace_manifest.json",
+      "source_sha256": "da4b154bb9010fb7cd16c88f5cc436bd38d6349e0089b8076ce7064014274c5b"
+    },
+    {
+      "path": "data/main/checkpoint55_traffic505/dqn_ir_fixed_link/S1_non_cross_normal/summary_FORMAL.json",
+      "sha256": "8e732658845e77168a8360f0a6a02d69435cb98e10986a2e8c866c5693a1aa5e",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint55_traffic505/dqn_ir_fixed_link/S1_non_cross_normal/summary_FORMAL.json",
+      "source_sha256": "586fee76402c8aa6374eee08d34c2032517f98023a2396c3df129fc3e1196eaf"
+    },
+    {
+      "path": "data/main/checkpoint55_traffic505/dqn_ir_fixed_link/S2_cross_normal/summary_FORMAL.json",
+      "sha256": "94b2f4fb504b2a8a775cde745530c62b268bbe31f39fac92f6b5129e10bbb8c6",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint55_traffic505/dqn_ir_fixed_link/S2_cross_normal/summary_FORMAL.json",
+      "source_sha256": "abc5b4ee079c71ffe3b1ffd33afecee35f9811db1624b29f25ec74f04d0a53a5"
+    },
+    {
+      "path": "data/main/checkpoint55_traffic505/dqn_ir_fixed_link/S3_non_cross_ftp/summary_FORMAL.json",
+      "sha256": "e6e91242646971fe1d48d14bbddfc866a197eb2cdb4cce404a91497cc034576c",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint55_traffic505/dqn_ir_fixed_link/S3_non_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "2af77c3571454b2d327f9155e6ca6abcab73faba5138ab7d8b30972f448130f9"
+    },
+    {
+      "path": "data/main/checkpoint55_traffic505/dqn_ir_fixed_link/S4_cross_ftp/summary_FORMAL.json",
+      "sha256": "c3d393fc0c689d37c4f64594dcd7f32e21e58ae4154276b96e28ea67e23fad6d",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint55_traffic505/dqn_ir_fixed_link/S4_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "2e386b6c710db049cbd5f3c251683ba61c69e10473097deaa69d10778ba46982"
+    },
+    {
+      "path": "data/main/checkpoint55_traffic505/fdr_marl_adapted/S1_non_cross_normal/summary_FORMAL.json",
+      "sha256": "a43ee1f56853b19b664876f43af65bf0f693a96f403c6768dc95b702f055a820",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint55_traffic505/fdr_marl_adapted/S1_non_cross_normal/summary_FORMAL.json",
+      "source_sha256": "6d9857a4557612a184f24c07843eee79e5f0044103036d5eb62b7c58c50ef2eb"
+    },
+    {
+      "path": "data/main/checkpoint55_traffic505/fdr_marl_adapted/S2_cross_normal/summary_FORMAL.json",
+      "sha256": "d6ff883b63432fb5b218fb8fd1b0a0ea6cdc59a5973683150054f2fe7ed04563",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint55_traffic505/fdr_marl_adapted/S2_cross_normal/summary_FORMAL.json",
+      "source_sha256": "afd8e02784208a8a1caaf54ae4292ac9b6f951ed4d9c87033e38b2f57f3c8ac3"
+    },
+    {
+      "path": "data/main/checkpoint55_traffic505/fdr_marl_adapted/S3_non_cross_ftp/summary_FORMAL.json",
+      "sha256": "5bd75b9487bd0fadcd849dfc5b7005b08b27df993d3eeef1d72178f0395eab02",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint55_traffic505/fdr_marl_adapted/S3_non_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "6ad28cbf45bd43bd19e50736df3ad95f3488295c21b3ab3ef4085adc95f90fa2"
+    },
+    {
+      "path": "data/main/checkpoint55_traffic505/fdr_marl_adapted/S4_cross_ftp/summary_FORMAL.json",
+      "sha256": "15a3db5e3d48822808b08b506e2f77dff8c4055ed552bbaace899ef17a2ae723",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint55_traffic505/fdr_marl_adapted/S4_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "6a0f36b57545896096f4c7bb183390ae05fc9e08f41bbd3080260f8891293851"
+    },
+    {
+      "path": "data/main/checkpoint55_traffic505/graphpr_adapted/S1_non_cross_normal/summary_FORMAL.json",
+      "sha256": "3e598a1e5c508f8a9b4cb126bf02d11550aee8ef3215396bec42f59f80f60982",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint55_traffic505/graphpr_adapted/S1_non_cross_normal/summary_FORMAL.json",
+      "source_sha256": "c4ea1e7b62245aabfac8c03f190cb4a2a97d85cfe93a8abca0e0605288206789"
+    },
+    {
+      "path": "data/main/checkpoint55_traffic505/graphpr_adapted/S2_cross_normal/summary_FORMAL.json",
+      "sha256": "6c45d0bf11392e2876196623906a2b64c80fa8546f92895ddeacdc81449afa5b",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint55_traffic505/graphpr_adapted/S2_cross_normal/summary_FORMAL.json",
+      "source_sha256": "c5d96b16b4060c6fa03b25f1269a6fbe07e36713ed0c13eeab0efb39df548b51"
+    },
+    {
+      "path": "data/main/checkpoint55_traffic505/graphpr_adapted/S3_non_cross_ftp/summary_FORMAL.json",
+      "sha256": "eb4c6b0d478314d6509238e7fcf18928676d787a4211202d4f9d3e1d408cd2cd",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint55_traffic505/graphpr_adapted/S3_non_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "80057886385d4e89ba015ddf864633a48d3345ed59c2003c2c566a0b6021b92a"
+    },
+    {
+      "path": "data/main/checkpoint55_traffic505/graphpr_adapted/S4_cross_ftp/summary_FORMAL.json",
+      "sha256": "c050365893dbc486b1b9b19d04d022908b757c3d5f01ef314881065fe24d2e86",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint55_traffic505/graphpr_adapted/S4_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "0f3f2c48e237c9d60ba13f242e5d3e43e9f4c946b630ddfda62d1dc8dd46b258"
+    },
+    {
+      "path": "data/main/checkpoint55_traffic505/proposed_gat_lstm_packet/S1_non_cross_normal/summary_FORMAL.json",
+      "sha256": "0e352aee64c57eb6fe041008d34327eddc5bbb3f48045f503edeae1d265cb55c",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint55_traffic505/proposed_gat_lstm_packet/S1_non_cross_normal/summary_FORMAL.json",
+      "source_sha256": "2c7a806e1de89f4c7ab61c5e0f27fcd25873886457781b47ae97201d3f115e58"
+    },
+    {
+      "path": "data/main/checkpoint55_traffic505/proposed_gat_lstm_packet/S2_cross_normal/summary_FORMAL.json",
+      "sha256": "fedb4a119a0673e7da60d13699edd023195550edb76045579992177474f69271",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint55_traffic505/proposed_gat_lstm_packet/S2_cross_normal/summary_FORMAL.json",
+      "source_sha256": "0b0a6d81cde7d9955821f9b5537313a9e4ddcc1927be4b73768a608b5c9a18d1"
+    },
+    {
+      "path": "data/main/checkpoint55_traffic505/proposed_gat_lstm_packet/S3_non_cross_ftp/summary_FORMAL.json",
+      "sha256": "98cc5003a93277f382e0c5cbc0f6a1b0906024c705c922fe129fc8d64020201d",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint55_traffic505/proposed_gat_lstm_packet/S3_non_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "279d417161f0aecd275eadc426f0686c1617d90bb15cf143e6a1e20c306d24b4"
+    },
+    {
+      "path": "data/main/checkpoint55_traffic505/proposed_gat_lstm_packet/S4_cross_ftp/summary_FORMAL.json",
+      "sha256": "17fbaa346c55222acb97dcaac535d32aabad316405a0976da0bb46d23f0b2dd3",
+      "source": "outputs/packet_fair_formal_load240_fiveseed/checkpoint55_traffic505/proposed_gat_lstm_packet/S4_cross_ftp/summary_FORMAL.json",
+      "source_sha256": "34b8579650d1c3fee70beb47f67d59fdd70fa8d5a606f89d8252cecf226906d3"
+    },
+    {
+      "path": "data/training/seed11/dqn_ir_fixed_link/training_metrics.csv",
+      "sha256": "1e0e840116d1033d1b6a983e82df1a675f4baddb080f1eb7c3f06b62948ef788",
+      "source": "outputs/packet_fair_seed11_load240_budget10m/dqn_ir_fixed_link/training_metrics.csv",
+      "source_sha256": "1e0e840116d1033d1b6a983e82df1a675f4baddb080f1eb7c3f06b62948ef788"
+    },
+    {
+      "path": "data/training/seed11/fdr_marl_adapted/training_metrics.csv",
+      "sha256": "f5512bf57109372bc013b60ec546ef6ed566ceb95772c0439c1a2de760673fcd",
+      "source": "outputs/packet_fair_seed11_load240_budget10m/fdr_marl_adapted/training_metrics.csv",
+      "source_sha256": "f5512bf57109372bc013b60ec546ef6ed566ceb95772c0439c1a2de760673fcd"
+    },
+    {
+      "path": "data/training/seed11/graphpr_adapted/training_metrics.csv",
+      "sha256": "b5965ca517c788b0f71e7fc8329eba252b2c9121454d0d4e1a5864765906dd67",
+      "source": "outputs/packet_fair_seed11_load240_budget10m/graphpr_adapted/training_metrics.csv",
+      "source_sha256": "b5965ca517c788b0f71e7fc8329eba252b2c9121454d0d4e1a5864765906dd67"
+    },
+    {
+      "path": "data/training/seed11/proposed_dqn_packet/training_metrics.csv",
+      "sha256": "c0c94fb208cadceca868cee3114d6c1d66e8ec8f9a750de8280a7443f55a5016",
+      "source": "outputs/packet_ablation_load240_budget10m/seed11/proposed_dqn_packet/training_metrics.csv",
+      "source_sha256": "c0c94fb208cadceca868cee3114d6c1d66e8ec8f9a750de8280a7443f55a5016"
+    },
+    {
+      "path": "data/training/seed11/proposed_gat_dqn_packet/training_metrics.csv",
+      "sha256": "b6a87b40e6fd38ca764c9eee9312247ebf449789932ec39ab22736d38f4aa888",
+      "source": "outputs/packet_ablation_load240_budget10m/seed11/proposed_gat_dqn_packet/training_metrics.csv",
+      "source_sha256": "b6a87b40e6fd38ca764c9eee9312247ebf449789932ec39ab22736d38f4aa888"
+    },
+    {
+      "path": "data/training/seed11/proposed_gat_lstm_packet/training_metrics.csv",
+      "sha256": "e3cc84c92931a945c5c859a2bf6f0df3a74f4a65c9b802823a4e83729ffc5afa",
+      "source": "outputs/packet_fair_seed11_load240_budget10m/proposed_gat_lstm_packet/training_metrics.csv",
+      "source_sha256": "e3cc84c92931a945c5c859a2bf6f0df3a74f4a65c9b802823a4e83729ffc5afa"
+    },
+    {
+      "path": "data/training/seed11/proposed_lstm_dqn_packet/training_metrics.csv",
+      "sha256": "48ef1eceadf61adbc80eea05c15d72aee50cb1dfbc217ec7719641ec4aec1de3",
+      "source": "outputs/packet_ablation_load240_budget10m/seed11/proposed_lstm_dqn_packet/training_metrics.csv",
+      "source_sha256": "48ef1eceadf61adbc80eea05c15d72aee50cb1dfbc217ec7719641ec4aec1de3"
+    },
+    {
+      "path": "data/training/seed22/dqn_ir_fixed_link/training_metrics.csv",
+      "sha256": "a0316ae9c28fbab855d7663bd3d67683bbd20579ae49ee25bc116a8b0658a948",
+      "source": "outputs/packet_fair_multiseed_load240_budget10m/seed22/dqn_ir_fixed_link/training_metrics.csv",
+      "source_sha256": "a0316ae9c28fbab855d7663bd3d67683bbd20579ae49ee25bc116a8b0658a948"
+    },
+    {
+      "path": "data/training/seed22/fdr_marl_adapted/training_metrics.csv",
+      "sha256": "b07a8c103b1d7e11e4d2b8c22ae002c020e948229b7f27cb74c50b3d1c779c62",
+      "source": "outputs/packet_fair_multiseed_load240_budget10m/seed22/fdr_marl_adapted/training_metrics.csv",
+      "source_sha256": "b07a8c103b1d7e11e4d2b8c22ae002c020e948229b7f27cb74c50b3d1c779c62"
+    },
+    {
+      "path": "data/training/seed22/graphpr_adapted/training_metrics.csv",
+      "sha256": "f4ab0888fe0ce837520439197f0c37ae5bc4eede6f859b09f9887a066a39fcc0",
+      "source": "outputs/packet_fair_multiseed_load240_budget10m/seed22/graphpr_adapted/training_metrics.csv",
+      "source_sha256": "f4ab0888fe0ce837520439197f0c37ae5bc4eede6f859b09f9887a066a39fcc0"
+    },
+    {
+      "path": "data/training/seed22/proposed_dqn_packet/training_metrics.csv",
+      "sha256": "a40367473609390e2dd8f45c16d3d97ab6827b18f83c8679047434bee3c31b00",
+      "source": "outputs/packet_ablation_load240_budget10m/seed22/proposed_dqn_packet/training_metrics.csv",
+      "source_sha256": "a40367473609390e2dd8f45c16d3d97ab6827b18f83c8679047434bee3c31b00"
+    },
+    {
+      "path": "data/training/seed22/proposed_gat_dqn_packet/training_metrics.csv",
+      "sha256": "d934d28da5c1c6a61301acc053221981f853092691f56178986ef67dade760ce",
+      "source": "outputs/packet_ablation_load240_budget10m/seed22/proposed_gat_dqn_packet/training_metrics.csv",
+      "source_sha256": "d934d28da5c1c6a61301acc053221981f853092691f56178986ef67dade760ce"
+    },
+    {
+      "path": "data/training/seed22/proposed_gat_lstm_packet/training_metrics.csv",
+      "sha256": "84501c4656b1206a1992655b359a8c150a4dbfd92c50738ba9962565e7187e86",
+      "source": "outputs/packet_fair_multiseed_load240_budget10m/seed22/proposed_gat_lstm_packet/training_metrics.csv",
+      "source_sha256": "84501c4656b1206a1992655b359a8c150a4dbfd92c50738ba9962565e7187e86"
+    },
+    {
+      "path": "data/training/seed22/proposed_lstm_dqn_packet/training_metrics.csv",
+      "sha256": "f2a59c55e952e0a1705c66e409c90fb1e979f5d9803a9dae253e9bd42228e06e",
+      "source": "outputs/packet_ablation_load240_budget10m/seed22/proposed_lstm_dqn_packet/training_metrics.csv",
+      "source_sha256": "f2a59c55e952e0a1705c66e409c90fb1e979f5d9803a9dae253e9bd42228e06e"
+    },
+    {
+      "path": "data/training/seed33/dqn_ir_fixed_link/training_metrics.csv",
+      "sha256": "9ab80b4562e7dbdc9577bd7791960ed36086e01fd2a280826c1b983999e2bcd7",
+      "source": "outputs/packet_fair_multiseed_load240_budget10m/seed33/dqn_ir_fixed_link/training_metrics.csv",
+      "source_sha256": "9ab80b4562e7dbdc9577bd7791960ed36086e01fd2a280826c1b983999e2bcd7"
+    },
+    {
+      "path": "data/training/seed33/fdr_marl_adapted/training_metrics.csv",
+      "sha256": "e30735d04cb5f3be11510fa0e4c64e25997b7d41aaba490645b0a01d8ec812c6",
+      "source": "outputs/packet_fair_multiseed_load240_budget10m/seed33/fdr_marl_adapted/training_metrics.csv",
+      "source_sha256": "e30735d04cb5f3be11510fa0e4c64e25997b7d41aaba490645b0a01d8ec812c6"
+    },
+    {
+      "path": "data/training/seed33/graphpr_adapted/training_metrics.csv",
+      "sha256": "879208b3139876fcc299255a575318f4f183f3651cbddc92b081a29fb906e1fe",
+      "source": "outputs/packet_fair_multiseed_load240_budget10m/seed33/graphpr_adapted/training_metrics.csv",
+      "source_sha256": "879208b3139876fcc299255a575318f4f183f3651cbddc92b081a29fb906e1fe"
+    },
+    {
+      "path": "data/training/seed33/proposed_dqn_packet/training_metrics.csv",
+      "sha256": "760251ab2c9ef1a5d74abfbc5a248734d62fe940a95fe36af9c5b7212238bfaa",
+      "source": "outputs/packet_ablation_load240_budget10m/seed33/proposed_dqn_packet/training_metrics.csv",
+      "source_sha256": "760251ab2c9ef1a5d74abfbc5a248734d62fe940a95fe36af9c5b7212238bfaa"
+    },
+    {
+      "path": "data/training/seed33/proposed_gat_dqn_packet/training_metrics.csv",
+      "sha256": "40c8596a67b7e37e9058eb01c519ed7cbf887ec07aa40480cc8c02a261325546",
+      "source": "outputs/packet_ablation_load240_budget10m/seed33/proposed_gat_dqn_packet/training_metrics.csv",
+      "source_sha256": "40c8596a67b7e37e9058eb01c519ed7cbf887ec07aa40480cc8c02a261325546"
+    },
+    {
+      "path": "data/training/seed33/proposed_gat_lstm_packet/training_metrics.csv",
+      "sha256": "975d436532318aa9586add2733c9cfa5dfb97604cc74930d391fd5ef1565129f",
+      "source": "outputs/packet_fair_multiseed_load240_budget10m/seed33/proposed_gat_lstm_packet/training_metrics.csv",
+      "source_sha256": "975d436532318aa9586add2733c9cfa5dfb97604cc74930d391fd5ef1565129f"
+    },
+    {
+      "path": "data/training/seed33/proposed_lstm_dqn_packet/training_metrics.csv",
+      "sha256": "7be67fb0f55197a0444ccbe7c444b194438e783add3e5629a00c17f7f1e55868",
+      "source": "outputs/packet_ablation_load240_budget10m/seed33/proposed_lstm_dqn_packet/training_metrics.csv",
+      "source_sha256": "7be67fb0f55197a0444ccbe7c444b194438e783add3e5629a00c17f7f1e55868"
+    },
+    {
+      "path": "data/training/seed44/dqn_ir_fixed_link/training_metrics.csv",
+      "sha256": "011ea279379c0136081a0b3baa4a33b0ea74f53acbb03afae4e52d6fff3ef6e8",
+      "source": "outputs/packet_fair_multiseed_load240_budget10m/seed44/dqn_ir_fixed_link/training_metrics.csv",
+      "source_sha256": "011ea279379c0136081a0b3baa4a33b0ea74f53acbb03afae4e52d6fff3ef6e8"
+    },
+    {
+      "path": "data/training/seed44/fdr_marl_adapted/training_metrics.csv",
+      "sha256": "c7dca3515f30398e8ca1d8829713a957e7411f20ae05cf2c1715770d1098c15c",
+      "source": "outputs/packet_fair_multiseed_load240_budget10m/seed44/fdr_marl_adapted/training_metrics.csv",
+      "source_sha256": "c7dca3515f30398e8ca1d8829713a957e7411f20ae05cf2c1715770d1098c15c"
+    },
+    {
+      "path": "data/training/seed44/graphpr_adapted/training_metrics.csv",
+      "sha256": "6c1b1b633d1eac363b12560d872ee90d335cc37a1a1251a40a2b94db751c7383",
+      "source": "outputs/packet_fair_multiseed_load240_budget10m/seed44/graphpr_adapted/training_metrics.csv",
+      "source_sha256": "6c1b1b633d1eac363b12560d872ee90d335cc37a1a1251a40a2b94db751c7383"
+    },
+    {
+      "path": "data/training/seed44/proposed_dqn_packet/training_metrics.csv",
+      "sha256": "1203193bfa118ab352aa985abe89a4045a3affa0bbe4c76054388651a1d7f202",
+      "source": "outputs/packet_ablation_load240_budget10m/seed44/proposed_dqn_packet/training_metrics.csv",
+      "source_sha256": "1203193bfa118ab352aa985abe89a4045a3affa0bbe4c76054388651a1d7f202"
+    },
+    {
+      "path": "data/training/seed44/proposed_gat_dqn_packet/training_metrics.csv",
+      "sha256": "4cd383930aa3ee60867539b24b6df3779eb5b5e5df0f79c835a19a9ddbcc34db",
+      "source": "outputs/packet_ablation_load240_budget10m/seed44/proposed_gat_dqn_packet/training_metrics.csv",
+      "source_sha256": "4cd383930aa3ee60867539b24b6df3779eb5b5e5df0f79c835a19a9ddbcc34db"
+    },
+    {
+      "path": "data/training/seed44/proposed_gat_lstm_packet/training_metrics.csv",
+      "sha256": "715cc4d3a558a25a5833c2fb45f783883392daf9f2b84b17a1acf62fd9144665",
+      "source": "outputs/packet_fair_multiseed_load240_budget10m/seed44/proposed_gat_lstm_packet/training_metrics.csv",
+      "source_sha256": "715cc4d3a558a25a5833c2fb45f783883392daf9f2b84b17a1acf62fd9144665"
+    },
+    {
+      "path": "data/training/seed44/proposed_lstm_dqn_packet/training_metrics.csv",
+      "sha256": "585e39c67da3f036e96acc0943202ad7e9d368a8fc5157d3618fd966c67e25a4",
+      "source": "outputs/packet_ablation_load240_budget10m/seed44/proposed_lstm_dqn_packet/training_metrics.csv",
+      "source_sha256": "585e39c67da3f036e96acc0943202ad7e9d368a8fc5157d3618fd966c67e25a4"
+    },
+    {
+      "path": "data/training/seed55/dqn_ir_fixed_link/training_metrics.csv",
+      "sha256": "72ad4693cefbae1335db768de3a4d235db482b31d277c6cc26f5258a7677ec06",
+      "source": "outputs/packet_fair_multiseed_load240_budget10m/seed55/dqn_ir_fixed_link/training_metrics.csv",
+      "source_sha256": "72ad4693cefbae1335db768de3a4d235db482b31d277c6cc26f5258a7677ec06"
+    },
+    {
+      "path": "data/training/seed55/fdr_marl_adapted/training_metrics.csv",
+      "sha256": "6937315b5a81d5dd5aff3f477ff4ef14dde9627b9cc0fdf7fcf137cb1a4e5300",
+      "source": "outputs/packet_fair_multiseed_load240_budget10m/seed55/fdr_marl_adapted/training_metrics.csv",
+      "source_sha256": "6937315b5a81d5dd5aff3f477ff4ef14dde9627b9cc0fdf7fcf137cb1a4e5300"
+    },
+    {
+      "path": "data/training/seed55/graphpr_adapted/training_metrics.csv",
+      "sha256": "78173fb27c0b0f055b0225f00c735081126c5945db2a01d878859c666e45baf8",
+      "source": "outputs/packet_fair_multiseed_load240_budget10m/seed55/graphpr_adapted/training_metrics.csv",
+      "source_sha256": "78173fb27c0b0f055b0225f00c735081126c5945db2a01d878859c666e45baf8"
+    },
+    {
+      "path": "data/training/seed55/proposed_dqn_packet/training_metrics.csv",
+      "sha256": "066298f8df9646e4c16e0fb41abf2e84885e20b2d15dcaf678fbad6a1ae815f0",
+      "source": "outputs/packet_ablation_load240_budget10m/seed55/proposed_dqn_packet/training_metrics.csv",
+      "source_sha256": "066298f8df9646e4c16e0fb41abf2e84885e20b2d15dcaf678fbad6a1ae815f0"
+    },
+    {
+      "path": "data/training/seed55/proposed_gat_dqn_packet/training_metrics.csv",
+      "sha256": "3f75347aa2eea34da684aee3a030799a4f2b01b69116ce0b71e59a3ffa04f6c0",
+      "source": "outputs/packet_ablation_load240_budget10m/seed55/proposed_gat_dqn_packet/training_metrics.csv",
+      "source_sha256": "3f75347aa2eea34da684aee3a030799a4f2b01b69116ce0b71e59a3ffa04f6c0"
+    },
+    {
+      "path": "data/training/seed55/proposed_gat_lstm_packet/training_metrics.csv",
+      "sha256": "8808748047395d0b0198eceeafaaf59d22e6bd07a916844f6258909463a1452e",
+      "source": "outputs/packet_fair_multiseed_load240_budget10m/seed55/proposed_gat_lstm_packet/training_metrics.csv",
+      "source_sha256": "8808748047395d0b0198eceeafaaf59d22e6bd07a916844f6258909463a1452e"
+    },
+    {
+      "path": "data/training/seed55/proposed_lstm_dqn_packet/training_metrics.csv",
+      "sha256": "dfd313db1e46c1315a7499360061dd9c412d7f8b121386250e2f8059ad6c4730",
+      "source": "outputs/packet_ablation_load240_budget10m/seed55/proposed_lstm_dqn_packet/training_metrics.csv",
+      "source_sha256": "dfd313db1e46c1315a7499360061dd9c412d7f8b121386250e2f8059ad6c4730"
+    }
+  ]
+}

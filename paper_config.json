@@ -1,0 +1,76 @@
+{
+  "training_seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "traffic_seeds": [
+    101,
+    202,
+    303,
+    404,
+    505
+  ],
+  "methods": [
+    "proposed_gat_lstm_packet",
+    "graphpr_adapted",
+    "fdr_marl_adapted",
+    "dqn_ir_fixed_link"
+  ],
+  "ablations": [
+    "proposed_gat_dqn_packet",
+    "proposed_lstm_dqn_packet",
+    "proposed_dqn_packet"
+  ],
+  "training": {
+    "load_mbps": 240,
+    "episodes": 1000,
+    "warmup_slots": 30,
+    "train_slots": 100,
+    "max_train_decisions": 10000000,
+    "epsilon_decay_decisions": 8000000,
+    "checkpoint_every": 5
+  },
+  "main": {
+    "warmup_slots": 30,
+    "baseline_slots": 250,
+    "burst_slots": 250,
+    "recovery_slots": 500,
+    "background_load_mbps": 240,
+    "recovery_definition": "legacy",
+    "scenarios": [
+      "S1_non_cross_normal",
+      "S2_cross_normal",
+      "S3_non_cross_ftp",
+      "S4_cross_ftp"
+    ]
+  },
+  "burst": {
+    "warmup_slots": 30,
+    "baseline_slots": 500,
+    "burst_slots": 250,
+    "recovery_slots": 750,
+    "measurement_slots": 1500,
+    "background_load_mbps": 240,
+    "recovery_definition": "teacher_20261023",
+    "scenarios": [
+      "S3_non_cross_ftp",
+      "S4_cross_ftp"
+    ]
+  },
+  "ftp": {
+    "ftp_sessions_per_second": 3.75,
+    "ftp_file_packets": 1334,
+    "ftp_packets_per_slot": 20
+  },
+  "paths": {
+    "seed11_training": "outputs/packet_fair_seed11_load240_budget10m",
+    "multiseed_training": "outputs/packet_fair_multiseed_load240_budget10m",
+    "ablation_training": "outputs/packet_ablation_load240_budget10m",
+    "main": "outputs/packet_fair_formal_load240_fiveseed",
+    "ablation": "outputs/packet_ablation_formal_load240_fiveseed",
+    "burst": "outputs/burst30s"
+  }
+}

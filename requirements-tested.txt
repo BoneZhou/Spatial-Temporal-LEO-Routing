@@ -1,0 +1,5 @@
+# Verified direct dependencies with Python 3.10.11.
+# CUDA verification used torch 2.13.0+cu132.
+numpy==1.26.4
+torch==2.13.0
+matplotlib==3.10.9
