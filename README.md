@@ -217,10 +217,13 @@ Definitions, provenance, and interpretation of the released data are documented 
 If you use this repository in academic work, please cite the associated manuscript. Formal bibliographic information will be added after publication.
 
 ```bibtex
-@inproceedings{spatiotemporalLEOrouting2027,
-  title  = {Spatial-Temporal Learning-Based Distributed Routing for Dynamic LEO Satellite Networks},
-  note   = {Manuscript},
-  year   = {2027}
+@misc{chou2026spatiotemporal,
+  title         = {Spatial-Temporal Learning-Based Distributed Routing for Dynamic LEO Satellite Networks},
+  author        = {Chou, Po-Heng and Wang, Chiapin and Chen, Shou-Yu and Wang, Hsiang-Ming and Chen, Kuan-Fu},
+  year          = {2026},
+  eprint        = {2605.02413},
+  archivePrefix = {arXiv},
+  doi           = {10.48550/arXiv.2605.02413}
 }
 ```
 
