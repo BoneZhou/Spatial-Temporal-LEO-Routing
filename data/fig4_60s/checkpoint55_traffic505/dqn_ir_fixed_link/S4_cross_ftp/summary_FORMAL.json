@@ -1,0 +1,84 @@
+{
+  "status": "FORMAL_COMPLETE",
+  "variant": "dqn_ir_fixed_link",
+  "scenario": "S4_cross_ftp",
+  "traffic_seed": 505,
+  "checkpoint_seed": 55,
+  "checkpoint": "outputs\\packet_fair_multiseed_load240_budget10m\\seed55\\dqn_ir_fixed_link\\checkpoint_latest.pt",
+  "checkpoint_training_load_mbps": 240.0,
+  "background_load_mbps": 240.0,
+  "trace_sha256": "fcb347e79569bba9571fce32d93d83a22e374d04ca6996464369083087648a7c",
+  "warmup_slots": 30,
+  "baseline_slots": 500,
+  "burst_slots": 250,
+  "ftp_tail_slots": 66,
+  "recovery_slots": 2250,
+  "measurement_slots": 3000,
+  "fixed_measurement_slots": 3000,
+  "recovery_definition": "teacher_20261023",
+  "ftp_sessions": 27,
+  "nhpp_injected_packets": 1201587,
+  "ftp_injected_packets": 36018,
+  "generated_packets": 1237605,
+  "delivered_packets": 242306,
+  "dropped_packets": 991968,
+  "queue_dropped_packets": 970820,
+  "ttl_dropped_packets": 21148,
+  "no_route_dropped_packets": 0,
+  "in_flight_at_horizon": 3331,
+  "throughput_mbps": 48.4612,
+  "packet_loss_rate": 0.8015222950779933,
+  "in_flight_fraction": 0.002691488802970253,
+  "end_to_end_delay_ms": 333.0531641808292,
+  "queue_wait_ms": 191.74060898203098,
+  "propagation_delay_ms": 69.76802149793481,
+  "transmission_delay_ms": 0.2826251103980629,
+  "processing_delay_ms": 0.7065627759946942,
+  "average_queue_packets": 73.899866656,
+  "mean_hops": 7.065627759939911,
+  "mean_shortest_hops_at_birth": 4.188092742235025,
+  "mean_inter_plane_crossings": 1.3925532178319975,
+  "recovery_time_s": 0.0,
+  "recovery_status": "recovered",
+  "recovery_baseline_q0": 72.20177782,
+  "recovery_threshold": 79.42195560200001,
+  "recovery_burst_peak_rolling_queue": 77.1577778,
+  "birth_phase_counts": {
+    "baseline": {
+      "generated": 200798,
+      "dropped": 151166,
+      "delivered": 49632
+    },
+    "burst": {
+      "generated": 130572,
+      "dropped": 105870,
+      "delivered": 24702
+    },
+    "ftp_tail": {
+      "generated": 31881,
+      "dropped": 25618,
+      "delivered": 6263
+    },
+    "recovery": {
+      "generated": 874354,
+      "dropped": 709314,
+      "delivered": 161709,
+      "in_flight_at_horizon": 3331
+    }
+  },
+  "traffic_class_counts": {
+    "nhpp": {
+      "generated": 1201587,
+      "dropped": 962225,
+      "delivered": 236031,
+      "in_flight_at_horizon": 3331
+    },
+    "ftp": {
+      "generated": 36018,
+      "dropped": 29743,
+      "delivered": 6275
+    }
+  },
+  "delay_definition": "Mean of delivered measured packets: (delivery_slot-birth_slot+1)*20ms; physical link components are diagnostic, not added again.",
+  "loss_definition": "Dropped measured packets / generated measured packets; in-flight packets are separately censored, not counted as loss."
+}

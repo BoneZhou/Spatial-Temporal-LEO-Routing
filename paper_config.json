@@ -51,6 +51,18 @@
     "warmup_slots": 30,
     "baseline_slots": 500,
     "burst_slots": 250,
+    "recovery_slots": 2250,
+    "measurement_slots": 3000,
+    "background_load_mbps": 240,
+    "recovery_definition": "teacher_20261023",
+    "scenarios": [
+      "S4_cross_ftp"
+    ]
+  },
+  "burst_recovery_30s": {
+    "warmup_slots": 30,
+    "baseline_slots": 500,
+    "burst_slots": 250,
     "recovery_slots": 750,
     "measurement_slots": 1500,
     "background_load_mbps": 240,
@@ -59,6 +71,17 @@
       "S3_non_cross_ftp",
       "S4_cross_ftp"
     ]
+  },
+  "fig4_analysis": {
+    "slot_duration_s": 0.02,
+    "loss_window_slots": 10,
+    "loss_window_s": 0.2,
+    "band": "mean_plus_minus_sample_sd",
+    "sample_sd_ddof": 1,
+    "in_flight_treatment": "right_censored_not_loss",
+    "recovery_baseline_slots": 50,
+    "recovery_queue_window_slots": 25,
+    "recovery_stable_slots": 25
   },
   "ftp": {
     "ftp_sessions_per_second": 3.75,
@@ -71,6 +94,7 @@
     "ablation_training": "outputs/packet_ablation_load240_budget10m",
     "main": "outputs/packet_fair_formal_load240_fiveseed",
     "ablation": "outputs/packet_ablation_formal_load240_fiveseed",
-    "burst": "outputs/burst30s"
+    "burst": "outputs/burst60s",
+    "burst_recovery_30s": "outputs/burst30s"
   }
 }

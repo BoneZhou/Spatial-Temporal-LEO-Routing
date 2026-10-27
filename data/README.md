@@ -8,7 +8,8 @@ results produced while preparing this package.
 |---|---|---|
 | main | 80 per-run summaries, paired trace manifests and original audit record | outputs/packet_fair_formal_load240_fiveseed |
 | ablation | 60 reduced-model summaries and matching manifests | outputs/packet_ablation_formal_load240_fiveseed |
-| burst | 40 revised 30-s scenario summaries, slot measurements and compact birth ledgers | outputs/teacher_revision_20261023/burst30s_gpu_parallel |
+| fig4_60s | 20 paper Fig. 4 S4 summaries, paired traces, 3000-slot measurements and compact birth ledgers | outputs/teacher_revision_20261023/burst60s_gpu_parallel |
+| burst | 40 earlier 30-s S3/S4 recovery-diagnostic summaries, slot measurements and compact birth ledgers | outputs/teacher_revision_20261023/burst30s_gpu_parallel |
 | training | 35 episode CSVs: four main methods and three reduced variants, five seeds each | outputs/packet_fair_seed11_load240_budget10m; outputs/packet_fair_multiseed_load240_budget10m; outputs/packet_ablation_load240_budget10m |
 
 manifest.json records each shipped file's SHA-256, source relative path and
@@ -42,8 +43,15 @@ For fresh experiments, revision_burst_analysis.py derives the same ledger
 from packets_FORMAL.csv.gz. Reference ledgers cannot reconstruct individual
 paths; use fresh full event logs for packet-path auditing.
 
-Each seed is smoothed over ten slots (0.2 s) before computing five-seed mean/SD.
-Delivered-packet delay is weighted by deliveries. Recovery uses the last
-50 slots before burst arrivals as Qpre, a 25-slot trailing queue mean, and
-25 consecutive slots at or below 1.1 x Qpre. Unrecovered runs are right-censored;
-they are not replaced by the maximum observation time.
+For the 60-second Fig. 4, each per-seed loss series uses a trailing ten-slot
+(0.2-s) birth window before computing the five-seed mean and sample SD. The
+window numerator is eventual drops among packets born in the window; the
+denominator is all births in the window. In-flight-at-horizon packets remain
+in the denominator and are separately censored rather than counted as drops.
+
+The retained 30-second diagnostic additionally plots queue, delivered-packet
+delay and unresolved cohorts. Delivered-packet delay is weighted by deliveries.
+Recovery uses the last 50 slots before burst arrivals as Qpre, a 25-slot
+trailing queue mean, and 25 consecutive slots at or below 1.1 x Qpre.
+Unrecovered runs are right-censored; they are not replaced by the maximum
+observation time.

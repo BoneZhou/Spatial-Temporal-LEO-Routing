@@ -147,11 +147,20 @@ def plot(args, config):
 
 
 def burst_plot(args, config):
+    from icc2027_experiments.fig4_60s import process
+    source = (ROOT / "data/fig4_60s" if args.source == "reference"
+              else ROOT / config["paths"]["burst"])
+    process(source, ROOT / "outputs/figures" / args.source / "fig4_60s")
+
+
+def burst_recovery_plot(args, config):
+    """Retain the earlier 30-second S3/S4 recovery diagnostic."""
     from icc2027_experiments.publication_style import configure
     from icc2027_experiments.revision_burst_analysis import process
     configure()
-    source = ROOT / "data/burst" if args.source == "reference" else ROOT / config["paths"]["burst"]
-    process(source, ROOT / "outputs/figures" / args.source / "burst")
+    source = (ROOT / "data/burst" if args.source == "reference"
+              else ROOT / config["paths"]["burst_recovery_30s"])
+    process(source, ROOT / "outputs/figures" / args.source / "burst_recovery_30s")
 
 
 def check(config):
@@ -162,6 +171,23 @@ def check(config):
             raise ValueError(f"FTP setting disagrees with evaluator: {key}")
     if len(config["training_seeds"]) != len(config["traffic_seeds"]):
         raise ValueError("Training and traffic seeds must be paired")
+    expected_burst = {
+        "warmup_slots": 30, "baseline_slots": 500, "burst_slots": 250,
+        "recovery_slots": 2250, "measurement_slots": 3000,
+        "background_load_mbps": 240, "recovery_definition": "teacher_20261023",
+        "scenarios": ["S4_cross_ftp"],
+    }
+    if config["burst"] != expected_burst:
+        raise ValueError("The paper Fig. 4 protocol must remain the documented 60-second S4 run")
+    expected_analysis = {
+        "slot_duration_s": 0.02, "loss_window_slots": 10, "loss_window_s": 0.2,
+        "band": "mean_plus_minus_sample_sd", "sample_sd_ddof": 1,
+        "in_flight_treatment": "right_censored_not_loss",
+        "recovery_baseline_slots": 50, "recovery_queue_window_slots": 25,
+        "recovery_stable_slots": 25,
+    }
+    if config["fig4_analysis"] != expected_analysis:
+        raise ValueError("Fig. 4 analysis settings disagree with the released plotting code")
     print(json.dumps({
         "simulation": asdict(SimulationConfig()),
         "proposed_learning": asdict(LearningConfig()),
@@ -169,7 +195,8 @@ def check(config):
         "paper_protocol": config,
     }, indent=2))
     for module in ("baseline_train", "run_packet_fair_formal", "run_packet_ablation_formal",
-                   "robustness_formal", "robustness_audit", "revision_burst_analysis"):
+                   "robustness_formal", "robustness_audit", "revision_burst_analysis",
+                   "fig4_60s"):
         importlib.import_module("icc2027_experiments." + module)
 
 
@@ -191,7 +218,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("action", choices=(
         "check", "smoke", "train", "main", "ablation", "burst",
-        "tables", "plot", "burst-plot", "test"))
+        "tables", "plot", "burst-plot", "burst-recovery-plot", "test"))
     parser.add_argument("--config", type=Path, default=ROOT / "paper_config.json")
     parser.add_argument("--device", choices=("cpu", "cuda"), default="cpu")
     parser.add_argument("--group", choices=("main", "ablation"), default="main")
@@ -212,6 +239,8 @@ def main():
         plot(args, config)
     elif args.action == "burst-plot":
         burst_plot(args, config)
+    elif args.action == "burst-recovery-plot":
+        burst_recovery_plot(args, config)
     elif args.action == "check":
         check(config)
     elif args.action == "test":

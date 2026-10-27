@@ -38,7 +38,8 @@ Outputs:
 - outputs/reference/ablation/: full model versus GAT-only, LSTM-only and DQN.
 - outputs/figures/reference/main/ and ablation/: individual metric plots and
   three-panel throughput/loss/queue figures, in PDF/EPS/PNG.
-- outputs/figures/reference/burst/: 30-second S3/S4 curves and recovery tables.
+- outputs/figures/reference/fig4_60s/: the paper's 60-second S4 packet-loss
+  figure, aggregate mean/SD CSV and a machine-readable verification report.
   FTP session arrivals are at 10-15 seconds after warm-up.
 - outputs/figures/reference/training/: recorded training rewards, shown in
   separate panels because the methods use different reward functions.
@@ -47,6 +48,21 @@ Plotting recomputes statistics from per-seed records and requires no weights.
 Reference data contain summaries, slot measurements and derived birth-cohort
 counts, rather than full packet event logs.
 [Data provenance and definitions](data/README.md).
+
+The included five paired Fig. 4 runs use checkpoint/traffic seeds
+11/101, 22/202, 33/303, 44/404 and 55/505. Each run has 3000 measured slots
+(60 s) plus 30 excluded warm-up slots: 500 baseline, 250 FTP-burst and 2250
+recovery/follow-up slots. Packet loss is eventual drops among births in a
+trailing 10-slot (0.2-s) window divided by all births in that window. Packets
+still in flight at the horizon are censored, not losses. The line and band are
+the five-run mean and sample SD (`ddof=1`).
+
+The earlier 30-second S3/S4 recovery diagnostic remains available separately:
+
+    python reproduce.py burst-recovery-plot --source reference
+
+It writes to outputs/figures/reference/burst_recovery_30s/ and is not the
+source of the paper's 60-second Fig. 4.
 
 ## Run checks
 
@@ -103,7 +119,9 @@ are generated locally and excluded from this package.
 - packet_*aggregate.py / packet_formal_ci.py / packet_cross_region_paired.py:
   evaluation statistics.
 - revision_figures.py / paper_plots.py / revision_burst_analysis.py /
-  publication_style.py: plotting.
+  publication_style.py: general and 30-second diagnostic plotting.
+- fig4_60s.py: validated 60-second S4 birth-cohort loss and mean/sample-SD
+  plotting used by the paper Fig. 4 reproduction command.
 
 run.py supplies shared routing helpers and retains the earlier focal-packet
 runner needed by supplementary robustness code. reproduce.py uses the final

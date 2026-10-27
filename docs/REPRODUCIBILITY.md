@@ -10,7 +10,8 @@ experiment was substituted for the existing results.
 |---|---|---|
 | Main four-method comparison, S1-S4 | 240 Mbps, five paired seeds; 80 runs | reproduce.py main; tables; plot |
 | Strict GAT/LSTM ablation | Three reduced variants, 60 new runs; reuse 20 full-Proposed runs | reproduce.py train --group ablation; ablation; tables; plot |
-| Local/cross FTP burst and recovery | 240 Mbps background, fixed 30-s window; 40 runs | reproduce.py burst; burst-plot |
+| Paper Fig. 4 S4 packet loss | 240 Mbps background, fixed 60-s measured window; 20 runs | reproduce.py burst; burst-plot |
+| Earlier local/cross recovery diagnostic | 240 Mbps background, fixed 30-s window; 40 retained runs | reproduce.py burst-recovery-plot --source reference |
 | Cross-region paired effects | Cross minus local within each seed, then mean/SD/CI | reproduce.py tables |
 | Training trajectories | Recorded episode metrics; fixed interaction budget | reproduce.py plot |
 | Inference benchmark | Complete route_packets call, including history/masking/selection | python -m icc2027_experiments.benchmark_packet_inference --help |
@@ -42,9 +43,19 @@ check simulation signatures; their relative checkpoint directory convention
 is preserved.
 
 Original aggregate evaluation uses baseline/burst/recovery lengths of
-250/250/500 slots plus a seed-specific FTP completion tail. Revised burst
-evaluation uses a fixed 1500-slot window, with FTP session arrivals at
-10-15 seconds after warm-up. These are different timing/recovery protocols.
+250/250/500 slots plus a seed-specific FTP completion tail. The paper Fig. 4
+evaluation uses a fixed 3000-slot measured window: 500 baseline, 250 burst and
+2250 recovery/follow-up slots, with FTP session arrivals at 10-15 seconds after
+warm-up. At 20 ms per slot this is 60 seconds; the 30 warm-up slots are
+excluded. `measurement_slots` changed from 1500 to 3000 and `recovery_slots`
+from 750 to 2250. The FTP-generator defaults and warm-up do not change.
+
+Fig. 4 is produced by `fig4_60s.py`, not the older 30-second multi-metric
+script. It computes per-run eventual birth-cohort loss over a trailing 10-slot
+(0.2-s) window and then plots the five paired-run mean plus/minus sample SD.
+Packets still in flight at the horizon are censored, not counted as drops.
+The older fixed-1500-slot S3/S4 data and `revision_burst_analysis.py` remain in
+the package solely as a separately named recovery diagnostic.
 
 ## Differences from the locally available earlier PDF
 
@@ -71,7 +82,7 @@ does not include an audited Dijkstra load-sweep result.
   interpreting results.
 - Equal interaction budgets do not establish convergence. Raw rewards cannot
   be ranked across methods with different reward definitions.
-- Figure error bars show sample SD over five pairs. Separate t intervals use
+- Figure error bands show sample SD over five pairs. Separate t intervals use
   df=4 without multiple-comparison correction.
 - Delay conditions on successful delivery. In-flight packets are censored
   separately rather than counted as losses.
